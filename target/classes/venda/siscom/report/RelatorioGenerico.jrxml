@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd"
+              name="RelatorioGenerico"
+              pageWidth="595"
+              pageHeight="842"
+              columnWidth="555"
+              leftMargin="20"
+              rightMargin="20"
+              topMargin="20"
+              bottomMargin="20"
+              uuid="11111111-1111-1111-1111-111111111111">
+
+    <parameter name="TITULO" class="java.lang.String"/>
+
+    <field name="codigo" class="java.lang.String"/>
+    <field name="data" class="java.lang.String"/>
+    <field name="nome" class="java.lang.String"/>
+    <field name="tipo" class="java.lang.String"/>
+    <field name="forma" class="java.lang.String"/>
+    <field name="movimentacao" class="java.lang.String"/>
+    <field name="valor" class="java.lang.String"/>
+
+    <title>
+        <band height="50">
+            <textField>
+                <reportElement x="0" y="0" width="555" height="30" uuid="11111111-1111-1111-1111-111111111112"/>
+                <textElement textAlignment="Center">
+                    <font size="16" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{TITULO}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="0" y="32" width="555" height="15" uuid="11111111-1111-1111-1111-111111111113"/>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[SISCOM - Sistema de Gestao Comercial]]></text>
+            </staticText>
+        </band>
+    </title>
+
+    <columnHeader>
+        <band height="20">
+            <staticText>
+                <reportElement x="0" y="0" width="35" height="18" uuid="11111111-1111-1111-1111-111111111114"/>
+                <textElement><font isBold="true"/></textElement>
+                <text><![CDATA[Cod.]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="35" y="0" width="70" height="18" uuid="11111111-1111-1111-1111-111111111115"/>
+                <textElement><font isBold="true"/></textElement>
+                <text><![CDATA[Data]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="105" y="0" width="150" height="18" uuid="11111111-1111-1111-1111-111111111116"/>
+                <textElement><font isBold="true"/></textElement>
+                <text><![CDATA[Nome]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="255" y="0" width="80" height="18" uuid="11111111-1111-1111-1111-111111111117"/>
+                <textElement><font isBold="true"/></textElement>
+                <text><![CDATA[Tipo]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="335" y="0" width="80" height="18" uuid="11111111-1111-1111-1111-111111111118"/>
+                <textElement><font isBold="true"/></textElement>
+                <text><![CDATA[Forma]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="415" y="0" width="65" height="18" uuid="11111111-1111-1111-1111-111111111119"/>
+                <textElement><font isBold="true"/></textElement>
+                <text><![CDATA[Mov.]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="480" y="0" width="75" height="18" uuid="11111111-1111-1111-1111-111111111120"/>
+                <textElement><font isBold="true"/></textElement>
+                <text><![CDATA[Valor]]></text>
+            </staticText>
+        </band>
+    </columnHeader>
+
+    <detail>
+        <band height="18">
+            <textField isBlankWhenNull="true">
+                <reportElement x="0" y="0" width="35" height="16" uuid="11111111-1111-1111-1111-111111111121"/>
+                <textFieldExpression><![CDATA[$F{codigo}]]></textFieldExpression>
+            </textField>
+            <textField isBlankWhenNull="true">
+                <reportElement x="35" y="0" width="70" height="16" uuid="11111111-1111-1111-1111-111111111122"/>
+                <textFieldExpression><![CDATA[$F{data}]]></textFieldExpression>
+            </textField>
+            <textField isBlankWhenNull="true">
+                <reportElement x="105" y="0" width="150" height="16" uuid="11111111-1111-1111-1111-111111111123"/>
+                <textFieldExpression><![CDATA[$F{nome}]]></textFieldExpression>
+            </textField>
+            <textField isBlankWhenNull="true">
+                <reportElement x="255" y="0" width="80" height="16" uuid="11111111-1111-1111-1111-111111111124"/>
+                <textFieldExpression><![CDATA[$F{tipo}]]></textFieldExpression>
+            </textField>
+            <textField isBlankWhenNull="true">
+                <reportElement x="335" y="0" width="80" height="16" uuid="11111111-1111-1111-1111-111111111125"/>
+                <textFieldExpression><![CDATA[$F{forma}]]></textFieldExpression>
+            </textField>
+            <textField isBlankWhenNull="true">
+                <reportElement x="415" y="0" width="65" height="16" uuid="11111111-1111-1111-1111-111111111126"/>
+                <textFieldExpression><![CDATA[$F{movimentacao}]]></textFieldExpression>
+            </textField>
+            <textField isBlankWhenNull="true">
+                <reportElement x="480" y="0" width="75" height="16" uuid="11111111-1111-1111-1111-111111111127"/>
+                <textElement textAlignment="Right"/>
+                <textFieldExpression><![CDATA[$F{valor}]]></textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+</jasperReport>

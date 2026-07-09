@@ -1,0 +1,1745 @@
+07/07/2026 16:14:06 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 16:14:06 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+07/07/2026 16:14:07 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+07/07/2026 16:14:07 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+07/07/2026 16:14:08 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+07/07/2026 16:14:08 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+07/07/2026 16:14:11 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07/07/2026 16:14:11 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@31a17ec0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+07/07/2026 16:14:12 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+07/07/2026 16:14:24 INFO  [v.siscom.view.FormaPagamentoView] - Executando construtor FormaPagamentoView.
+07/07/2026 16:14:24 INFO  [v.siscom.view.FormaPagamentoView] - Executando inicializar componentes de formas de pagamento.
+07/07/2026 16:14:24 INFO  [v.siscom.view.FormaPagamentoView] - Executando atualizar tabela de formas de pagamento.
+07/07/2026 16:14:24 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 16:14:24 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+07/07/2026 16:14:24 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+07/07/2026 16:14:24 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+07/07/2026 16:14:24 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+07/07/2026 16:14:24 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+07/07/2026 16:14:24 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+07/07/2026 16:14:24 INFO  [v.siscom.view.FormaPagamentoView] - Executando configurar eventos de formas de pagamento.
+07/07/2026 16:14:24 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+07/07/2026 16:14:24 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+07/07/2026 16:14:29 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+07/07/2026 16:14:29 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Prazo.
+07/07/2026 16:14:31 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+07/07/2026 16:14:31 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+07/07/2026 16:15:46 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 16:15:46 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+07/07/2026 16:16:10 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 16:16:11 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+07/07/2026 16:16:11 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+07/07/2026 16:16:11 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+07/07/2026 16:16:11 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+07/07/2026 16:16:11 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+07/07/2026 16:16:13 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07/07/2026 16:16:13 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@726ca862] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+07/07/2026 16:16:14 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+07/07/2026 16:16:35 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+07/07/2026 16:16:35 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+07/07/2026 16:16:35 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 16:16:35 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 16:16:35 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 16:16:47 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 4
+07/07/2026 16:16:50 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+07/07/2026 16:16:51 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 1
+07/07/2026 16:17:31 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 16:17:31 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 16:17:31 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 16:17:31 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+07/07/2026 16:17:32 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 11
+07/07/2026 16:18:14 WARN  [venda.siscom.view.FinanceiroView] - Dados invalidos ao salvar lancamento financeiro.
+java.lang.NumberFormatException: For input string: "roupas"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(Unknown Source)
+	at java.base/java.lang.Double.parseDouble(Unknown Source)
+	at venda.siscom.util.FormatadorMoeda.converter(FormatadorMoeda.java:50)
+	at venda.siscom.view.FinanceiroView.salvar(FinanceiroView.java:505)
+	at venda.siscom.view.FinanceiroView.lambda$0(FinanceiroView.java:423)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+07/07/2026 16:18:20 WARN  [venda.siscom.view.FinanceiroView] - Dados invalidos ao salvar lancamento financeiro.
+java.lang.NumberFormatException: For input string: "roupas"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(Unknown Source)
+	at java.base/java.lang.Double.parseDouble(Unknown Source)
+	at venda.siscom.util.FormatadorMoeda.converter(FormatadorMoeda.java:50)
+	at venda.siscom.view.FinanceiroView.salvar(FinanceiroView.java:505)
+	at venda.siscom.view.FinanceiroView.lambda$0(FinanceiroView.java:423)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+07/07/2026 16:18:32 INFO  [v.s.controller.FinanceiroController] - Iniciando salvamento manual do lançamento financeiro.
+07/07/2026 16:18:32 INFO  [v.s.controller.FinanceiroController] - Gerando parcelas automaticamente.
+07/07/2026 16:18:32 INFO  [v.s.controller.FinanceiroController] - Parcela 1 gerada.
+07/07/2026 16:18:32 INFO  [v.s.controller.FinanceiroController] - Parcela 2 gerada.
+07/07/2026 16:18:32 INFO  [v.s.controller.FinanceiroController] - Lançamento financeiro manual salvo com sucesso.
+07/07/2026 16:18:33 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: Compra, Forma: null, Movimentacao: null
+07/07/2026 16:18:33 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 9
+07/07/2026 16:18:48 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+07/07/2026 16:18:48 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 12
+07/07/2026 16:19:15 INFO  [v.s.c.FinanceiroParcelaController] - Iniciando alteração da parcela.
+07/07/2026 16:19:51 INFO  [v.s.c.FinanceiroParcelaController] - Iniciando baixa da parcela.
+07/07/2026 16:19:51 INFO  [v.s.c.FinanceiroParcelaController] - Baixa realizada com sucesso para parcela ID: 14
+07/07/2026 16:21:26 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 16:21:26 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 16:21:26 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:21:26 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:21:35 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 16:21:35 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 16:21:35 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 16:21:35 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+07/07/2026 16:21:35 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 12
+07/07/2026 16:21:48 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+07/07/2026 16:21:48 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 12
+07/07/2026 16:21:50 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+07/07/2026 16:21:50 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 12
+07/07/2026 16:22:00 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:00 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:22:12 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 3
+07/07/2026 16:22:12 WARN  [venda.siscom.dao.FinanceiroDAO] - Conta gerada por Compra/Venda nao pode ser excluida.
+07/07/2026 16:22:12 WARN  [v.s.controller.FinanceiroController] - Falha ao excluir lançamento financeiro. ID: 3
+07/07/2026 16:22:12 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:12 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:22:13 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 4
+07/07/2026 16:22:13 WARN  [venda.siscom.dao.FinanceiroDAO] - Conta gerada por Compra/Venda nao pode ser excluida.
+07/07/2026 16:22:13 WARN  [v.s.controller.FinanceiroController] - Falha ao excluir lançamento financeiro. ID: 4
+07/07/2026 16:22:13 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:13 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:22:15 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 5
+07/07/2026 16:22:15 WARN  [venda.siscom.dao.FinanceiroDAO] - Conta gerada por Compra/Venda nao pode ser excluida.
+07/07/2026 16:22:15 WARN  [v.s.controller.FinanceiroController] - Falha ao excluir lançamento financeiro. ID: 5
+07/07/2026 16:22:15 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:15 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:22:17 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 4
+07/07/2026 16:22:17 WARN  [venda.siscom.dao.FinanceiroDAO] - Conta gerada por Compra/Venda nao pode ser excluida.
+07/07/2026 16:22:17 WARN  [v.s.controller.FinanceiroController] - Falha ao excluir lançamento financeiro. ID: 4
+07/07/2026 16:22:17 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:17 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:22:22 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 11
+07/07/2026 16:22:22 WARN  [venda.siscom.dao.FinanceiroDAO] - Conta gerada por Compra/Venda nao pode ser excluida.
+07/07/2026 16:22:22 WARN  [v.s.controller.FinanceiroController] - Falha ao excluir lançamento financeiro. ID: 11
+07/07/2026 16:22:22 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:22 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:22:24 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 3
+07/07/2026 16:22:24 WARN  [venda.siscom.dao.FinanceiroDAO] - Conta gerada por Compra/Venda nao pode ser excluida.
+07/07/2026 16:22:24 WARN  [v.s.controller.FinanceiroController] - Falha ao excluir lançamento financeiro. ID: 3
+07/07/2026 16:22:24 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:24 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:22:29 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 4
+07/07/2026 16:22:29 WARN  [venda.siscom.dao.FinanceiroDAO] - Conta gerada por Compra/Venda nao pode ser excluida.
+07/07/2026 16:22:29 WARN  [v.s.controller.FinanceiroController] - Falha ao excluir lançamento financeiro. ID: 4
+07/07/2026 16:22:29 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:29 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:22:31 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 5
+07/07/2026 16:22:31 WARN  [venda.siscom.dao.FinanceiroDAO] - Conta gerada por Compra/Venda nao pode ser excluida.
+07/07/2026 16:22:31 WARN  [v.s.controller.FinanceiroController] - Falha ao excluir lançamento financeiro. ID: 5
+07/07/2026 16:22:31 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:31 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:22:33 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 5
+07/07/2026 16:22:33 WARN  [venda.siscom.dao.FinanceiroDAO] - Conta gerada por Compra/Venda nao pode ser excluida.
+07/07/2026 16:22:33 WARN  [v.s.controller.FinanceiroController] - Falha ao excluir lançamento financeiro. ID: 5
+07/07/2026 16:22:33 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:33 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:22:38 INFO  [v.s.controller.FinanceiroController] - Iniciando alteração do lançamento financeiro.
+07/07/2026 16:22:38 INFO  [v.s.controller.FinanceiroController] - Lançamento financeiro alterado com sucesso.
+07/07/2026 16:22:38 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:38 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:22:42 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 11
+07/07/2026 16:22:42 WARN  [venda.siscom.dao.FinanceiroDAO] - Conta gerada por Compra/Venda nao pode ser excluida.
+07/07/2026 16:22:42 WARN  [v.s.controller.FinanceiroController] - Falha ao excluir lançamento financeiro. ID: 11
+07/07/2026 16:22:42 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:42 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:22:45 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 11
+07/07/2026 16:22:45 WARN  [venda.siscom.dao.FinanceiroDAO] - Conta gerada por Compra/Venda nao pode ser excluida.
+07/07/2026 16:22:45 WARN  [v.s.controller.FinanceiroController] - Falha ao excluir lançamento financeiro. ID: 11
+07/07/2026 16:22:45 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:45 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:22:58 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 11
+07/07/2026 16:22:58 WARN  [venda.siscom.dao.FinanceiroDAO] - Conta gerada por Compra/Venda nao pode ser excluida.
+07/07/2026 16:22:58 WARN  [v.s.controller.FinanceiroController] - Falha ao excluir lançamento financeiro. ID: 11
+07/07/2026 16:22:58 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:22:58 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 4
+07/07/2026 16:25:39 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 16:25:39 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+07/07/2026 16:25:40 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+07/07/2026 16:25:40 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+07/07/2026 16:25:40 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+07/07/2026 16:25:40 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+07/07/2026 16:25:42 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07/07/2026 16:25:42 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@573eecb6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+07/07/2026 16:25:43 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: false
+07/07/2026 16:32:49 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 16:32:49 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+07/07/2026 16:32:50 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+07/07/2026 16:32:50 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+07/07/2026 16:32:50 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+07/07/2026 16:32:50 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+07/07/2026 16:32:52 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07/07/2026 16:32:52 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@36de1e99] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+07/07/2026 16:32:53 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: false
+07/07/2026 16:32:57 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 16:32:57 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+07/07/2026 16:33:08 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 16:33:08 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 16:33:08 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:33:08 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:33:13 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 1. Estoque: 49, solicitado: 1, disponivel: true
+07/07/2026 16:33:18 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:33:18 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:33:20 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+07/07/2026 16:33:20 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+07/07/2026 16:33:20 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+07/07/2026 16:33:20 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+07/07/2026 16:33:24 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 16:33:24 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 16:33:24 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:33:24 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:33:28 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 5. Estoque: 1, solicitado: 1, disponivel: true
+07/07/2026 16:33:30 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 16:33:30 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 16:33:30 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 16:33:31 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+07/07/2026 16:33:31 WARN  [v.siscom.controller.VendaController] - Cliente atingiu o limite de vendas no mes. CPF: teste
+07/07/2026 16:33:38 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 16:33:38 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 16:33:38 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:33:38 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:33:45 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 5. Estoque: 1, solicitado: 1, disponivel: true
+07/07/2026 16:33:46 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 16:33:46 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 16:33:46 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 16:33:49 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+07/07/2026 16:33:49 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+07/07/2026 16:33:49 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+07/07/2026 16:33:49 INFO  [v.s.controller.ProdutoController] - Baixa de estoque do produto ID 5 concluida: true
+07/07/2026 16:33:49 INFO  [v.siscom.controller.VendaController] - Executando gerar parcelas da venda. Parcelas: 1, prazo: 0, valor: 35.0
+07/07/2026 16:33:49 WARN  [v.siscom.controller.VendaController] - Prazo de parcelas invalido. Usando 30 dias.
+07/07/2026 16:33:49 INFO  [v.siscom.controller.VendaController] - Parcela da venda gerada. Numero: 1, vencimento: 2026-07-07, valor: 35.0
+07/07/2026 16:33:49 INFO  [v.siscom.controller.VendaController] - Geracao de parcelas da venda concluida. Total parcelas: 1
+07/07/2026 16:33:49 INFO  [v.siscom.controller.VendaController] - Venda finalizada com sucesso. ID: 5, valor: 35.0
+07/07/2026 16:33:57 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:33:57 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:34:03 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 16:34:03 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 16:34:03 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:34:03 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:34:56 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 2. Estoque: 35, solicitado: 1, disponivel: true
+07/07/2026 16:34:57 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 16:34:57 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 16:34:57 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 16:34:57 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+07/07/2026 16:34:57 WARN  [v.siscom.controller.VendaController] - Cliente atingiu o limite de vendas no mes. CPF: teste
+07/07/2026 16:34:59 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+07/07/2026 16:34:59 WARN  [v.siscom.controller.VendaController] - Cliente atingiu o limite de vendas no mes. CPF: teste
+07/07/2026 16:35:02 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+07/07/2026 16:35:02 WARN  [v.siscom.controller.VendaController] - Cliente atingiu o limite de vendas no mes. CPF: teste
+07/07/2026 16:44:13 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:44:13 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:45:22 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 16:45:22 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+07/07/2026 16:45:22 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+07/07/2026 16:45:23 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+07/07/2026 16:45:23 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+07/07/2026 16:45:23 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+07/07/2026 16:45:25 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07/07/2026 16:45:25 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2ad5f51a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+07/07/2026 16:45:26 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+07/07/2026 16:45:29 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:45:29 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:45:31 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+07/07/2026 16:45:31 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+07/07/2026 16:45:31 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+07/07/2026 16:45:31 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+07/07/2026 16:45:35 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+07/07/2026 16:45:35 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+07/07/2026 16:45:35 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 16:45:36 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 16:45:36 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 16:45:40 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 4
+07/07/2026 16:45:52 INFO  [v.siscom.controller.CompraController] - Iniciando finalização da compra.
+07/07/2026 16:45:52 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 2
+07/07/2026 16:45:52 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 2
+07/07/2026 16:45:52 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 2
+07/07/2026 16:45:52 INFO  [v.siscom.controller.CompraController] - Valor total da compra: 80.0
+07/07/2026 16:45:52 INFO  [v.siscom.controller.CompraController] - Salvando compra.
+07/07/2026 16:45:52 INFO  [v.siscom.controller.CompraController] - Atualizando estoque dos produtos.
+07/07/2026 16:45:52 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 2 concluido: true
+07/07/2026 16:45:52 INFO  [v.siscom.controller.CompraController] - Gerando lançamento financeiro.
+07/07/2026 16:45:52 INFO  [v.siscom.controller.CompraController] - Gerando 1 parcela(s).
+07/07/2026 16:45:52 INFO  [v.siscom.controller.CompraController] - Gerando parcelas do financeiro.
+07/07/2026 16:45:52 INFO  [v.siscom.controller.CompraController] - Quantidade de parcelas: 1
+07/07/2026 16:45:52 INFO  [v.siscom.controller.CompraController] - Prazo entre parcelas: 30 dias.
+07/07/2026 16:45:52 INFO  [v.siscom.controller.CompraController] - Parcela 1 gerada. Valor: 80.0
+07/07/2026 16:45:52 INFO  [v.siscom.controller.CompraController] - Parcelas geradas com sucesso.
+07/07/2026 16:45:52 INFO  [v.siscom.controller.CompraController] - Compra finalizada com sucesso.
+07/07/2026 16:45:56 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:45:56 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:46:01 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+07/07/2026 16:46:01 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+07/07/2026 16:46:01 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 16:46:01 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 16:46:01 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 16:46:03 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 4
+07/07/2026 16:46:04 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 4
+07/07/2026 16:46:05 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 1
+07/07/2026 16:46:07 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 2
+07/07/2026 16:46:09 INFO  [v.siscom.controller.CompraController] - Iniciando finalização da compra.
+07/07/2026 16:46:09 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 5
+07/07/2026 16:46:09 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+07/07/2026 16:46:09 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+07/07/2026 16:46:09 INFO  [v.siscom.controller.CompraController] - Valor total da compra: 35.0
+07/07/2026 16:46:09 INFO  [v.siscom.controller.CompraController] - Salvando compra.
+07/07/2026 16:46:09 INFO  [v.siscom.controller.CompraController] - Atualizando estoque dos produtos.
+07/07/2026 16:46:09 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 5 concluido: true
+07/07/2026 16:46:09 INFO  [v.siscom.controller.CompraController] - Gerando lançamento financeiro.
+07/07/2026 16:46:09 INFO  [v.siscom.controller.CompraController] - Gerando 1 parcela(s).
+07/07/2026 16:46:09 INFO  [v.siscom.controller.CompraController] - Gerando parcelas do financeiro.
+07/07/2026 16:46:09 INFO  [v.siscom.controller.CompraController] - Quantidade de parcelas: 1
+07/07/2026 16:46:09 INFO  [v.siscom.controller.CompraController] - Prazo entre parcelas: 30 dias.
+07/07/2026 16:46:09 INFO  [v.siscom.controller.CompraController] - Parcela 1 gerada. Valor: 35.0
+07/07/2026 16:46:09 INFO  [v.siscom.controller.CompraController] - Parcelas geradas com sucesso.
+07/07/2026 16:46:09 INFO  [v.siscom.controller.CompraController] - Compra finalizada com sucesso.
+07/07/2026 16:46:13 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:46:13 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:46:21 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+07/07/2026 16:46:21 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+07/07/2026 16:46:21 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 16:46:21 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 16:46:21 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 16:46:25 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 1
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Iniciando finalização da compra.
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 4
+07/07/2026 16:46:28 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+07/07/2026 16:46:28 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 1
+07/07/2026 16:46:28 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 1
+07/07/2026 16:46:28 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 1
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Valor total da compra: 8.0
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Salvando compra.
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Atualizando estoque dos produtos.
+07/07/2026 16:46:28 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 4 concluido: true
+07/07/2026 16:46:28 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 1 concluido: true
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Gerando lançamento financeiro.
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Gerando 1 parcela(s).
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Gerando parcelas do financeiro.
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Quantidade de parcelas: 1
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Prazo entre parcelas: 30 dias.
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Parcela 1 gerada. Valor: 8.0
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Parcelas geradas com sucesso.
+07/07/2026 16:46:28 INFO  [v.siscom.controller.CompraController] - Compra finalizada com sucesso.
+07/07/2026 16:46:56 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 16:46:56 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 16:46:56 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 16:46:56 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+07/07/2026 16:46:57 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 16
+07/07/2026 16:48:04 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+07/07/2026 16:48:04 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 5
+07/07/2026 16:48:17 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 16:48:17 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 16:48:17 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:48:17 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:49:07 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:49:07 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:49:11 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 2
+07/07/2026 16:49:11 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 2
+07/07/2026 16:49:12 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 2
+07/07/2026 16:49:12 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 2
+07/07/2026 16:49:15 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 16:49:15 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 16:49:15 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:49:15 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:51:41 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 16:51:41 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 16:51:41 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:51:41 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:52:12 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 16:52:12 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+07/07/2026 16:52:12 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+07/07/2026 16:52:12 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+07/07/2026 16:52:13 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+07/07/2026 16:52:13 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+07/07/2026 16:52:15 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07/07/2026 16:52:15 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@38038585] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+07/07/2026 16:52:16 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+07/07/2026 16:52:19 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 16:52:19 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 16:52:19 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:52:19 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 16:52:22 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 1, solicitado: 1, disponivel: true
+07/07/2026 16:52:26 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 1, solicitado: 1, disponivel: true
+07/07/2026 16:52:27 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 1, solicitado: 1, disponivel: true
+07/07/2026 16:52:28 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 16:52:28 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 16:52:28 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 16:52:29 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+07/07/2026 16:52:29 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+07/07/2026 16:52:29 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+07/07/2026 16:52:29 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+07/07/2026 16:52:30 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+07/07/2026 16:52:30 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+07/07/2026 16:52:30 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+07/07/2026 16:52:30 INFO  [v.s.controller.ProdutoController] - Baixa de estoque do produto ID 4 concluida: true
+07/07/2026 16:52:30 WARN  [v.s.controller.ProdutoController] - Estoque insuficiente para produto ID 4. Estoque: 0, solicitado: 1
+07/07/2026 16:52:30 WARN  [v.s.controller.ProdutoController] - Estoque insuficiente para produto ID 4. Estoque: 0, solicitado: 1
+07/07/2026 16:52:30 INFO  [v.siscom.controller.VendaController] - Executando gerar parcelas da venda. Parcelas: 1, prazo: 0, valor: 780.0
+07/07/2026 16:52:30 WARN  [v.siscom.controller.VendaController] - Prazo de parcelas invalido. Usando 30 dias.
+07/07/2026 16:52:30 INFO  [v.siscom.controller.VendaController] - Parcela da venda gerada. Numero: 1, vencimento: 2026-07-07, valor: 780.0
+07/07/2026 16:52:30 INFO  [v.siscom.controller.VendaController] - Geracao de parcelas da venda concluida. Total parcelas: 1
+07/07/2026 16:52:30 INFO  [v.siscom.controller.VendaController] - Venda finalizada com sucesso. ID: 6, valor: 780.0
+07/07/2026 16:52:36 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 16:52:36 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:00:55 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 17:00:55 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+07/07/2026 17:00:56 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+07/07/2026 17:00:56 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+07/07/2026 17:00:56 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+07/07/2026 17:00:56 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+07/07/2026 17:00:58 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07/07/2026 17:00:58 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@767fcbe3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+07/07/2026 17:00:59 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+07/07/2026 17:01:02 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:01:03 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:01:07 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:01:07 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:01:11 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+07/07/2026 17:01:11 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+07/07/2026 17:01:11 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 17:01:11 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 17:01:11 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 17:01:13 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 1
+07/07/2026 17:01:15 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 2
+07/07/2026 17:01:17 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+07/07/2026 17:01:17 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:01:17 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:01:17 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+07/07/2026 17:01:21 INFO  [v.s.c.FornecedorProdutoController] - Iniciando salvamento da relação Fornecedor-Produto.
+07/07/2026 17:01:22 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+07/07/2026 17:01:25 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+07/07/2026 17:01:25 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+07/07/2026 17:01:25 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 17:01:25 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 17:01:25 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 17:01:29 INFO  [v.siscom.controller.CompraController] - Iniciando finalização da compra.
+07/07/2026 17:01:29 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 3
+07/07/2026 17:01:29 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+07/07/2026 17:01:29 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+07/07/2026 17:01:29 INFO  [v.siscom.controller.CompraController] - Valor total da compra: 30.0
+07/07/2026 17:01:29 INFO  [v.siscom.controller.CompraController] - Salvando compra.
+07/07/2026 17:01:29 INFO  [v.siscom.controller.CompraController] - Atualizando estoque dos produtos.
+07/07/2026 17:01:29 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 3 concluido: true
+07/07/2026 17:01:29 INFO  [v.siscom.controller.CompraController] - Gerando lançamento financeiro.
+07/07/2026 17:01:29 INFO  [v.siscom.controller.CompraController] - Gerando 1 parcela(s).
+07/07/2026 17:01:29 INFO  [v.siscom.controller.CompraController] - Gerando parcelas do financeiro.
+07/07/2026 17:01:29 INFO  [v.siscom.controller.CompraController] - Quantidade de parcelas: 1
+07/07/2026 17:01:29 INFO  [v.siscom.controller.CompraController] - Prazo entre parcelas: 30 dias.
+07/07/2026 17:01:29 INFO  [v.siscom.controller.CompraController] - Parcela 1 gerada. Valor: 30.0
+07/07/2026 17:01:29 INFO  [v.siscom.controller.CompraController] - Parcelas geradas com sucesso.
+07/07/2026 17:01:29 INFO  [v.siscom.controller.CompraController] - Compra finalizada com sucesso.
+07/07/2026 17:01:33 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 17:01:33 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 17:01:33 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:01:33 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:01:37 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 1, solicitado: 1, disponivel: true
+07/07/2026 17:01:43 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 17:01:43 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 17:01:43 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 17:01:49 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 17:01:49 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 17:01:49 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:01:49 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:01:52 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 1, solicitado: 1, disponivel: true
+07/07/2026 17:01:55 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 17:01:55 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 17:01:55 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 17:01:56 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+07/07/2026 17:01:56 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+07/07/2026 17:01:56 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+07/07/2026 17:01:56 INFO  [v.s.controller.ProdutoController] - Baixa de estoque do produto ID 3 concluida: true
+07/07/2026 17:01:56 INFO  [v.siscom.controller.VendaController] - Executando gerar parcelas da venda. Parcelas: 1, prazo: 0, valor: 30.0
+07/07/2026 17:01:56 WARN  [v.siscom.controller.VendaController] - Prazo de parcelas invalido. Usando 30 dias.
+07/07/2026 17:01:56 INFO  [v.siscom.controller.VendaController] - Parcela da venda gerada. Numero: 1, vencimento: 2026-07-07, valor: 30.0
+07/07/2026 17:01:56 INFO  [v.siscom.controller.VendaController] - Geracao de parcelas da venda concluida. Total parcelas: 1
+07/07/2026 17:01:56 INFO  [v.siscom.controller.VendaController] - Venda finalizada com sucesso. ID: 7, valor: 30.0
+07/07/2026 17:02:04 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:02:04 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:02:08 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 17:02:08 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 17:02:08 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:02:08 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:02:13 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 0, solicitado: 1, disponivel: false
+07/07/2026 17:02:19 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 0, solicitado: 1, disponivel: false
+07/07/2026 17:03:05 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 17:03:05 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+07/07/2026 17:03:06 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+07/07/2026 17:03:06 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+07/07/2026 17:03:06 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+07/07/2026 17:03:06 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+07/07/2026 17:03:08 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07/07/2026 17:03:08 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@170cdc90] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+07/07/2026 17:03:09 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+07/07/2026 17:03:11 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 17:03:11 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 17:03:11 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:03:12 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:03:15 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 0, solicitado: 1, disponivel: false
+07/07/2026 17:03:21 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:03:21 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:03:25 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+07/07/2026 17:03:25 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+07/07/2026 17:03:25 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 17:03:25 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 17:03:25 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 17:03:28 INFO  [v.siscom.controller.CompraController] - Iniciando finalização da compra.
+07/07/2026 17:03:28 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 3
+07/07/2026 17:03:28 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+07/07/2026 17:03:28 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+07/07/2026 17:03:28 INFO  [v.siscom.controller.CompraController] - Valor total da compra: 30.0
+07/07/2026 17:03:28 INFO  [v.siscom.controller.CompraController] - Salvando compra.
+07/07/2026 17:03:28 INFO  [v.siscom.controller.CompraController] - Atualizando estoque dos produtos.
+07/07/2026 17:03:29 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 3 concluido: true
+07/07/2026 17:03:29 INFO  [v.siscom.controller.CompraController] - Gerando lançamento financeiro.
+07/07/2026 17:03:29 INFO  [v.siscom.controller.CompraController] - Gerando 1 parcela(s).
+07/07/2026 17:03:29 INFO  [v.siscom.controller.CompraController] - Gerando parcelas do financeiro.
+07/07/2026 17:03:29 INFO  [v.siscom.controller.CompraController] - Quantidade de parcelas: 1
+07/07/2026 17:03:29 INFO  [v.siscom.controller.CompraController] - Prazo entre parcelas: 30 dias.
+07/07/2026 17:03:29 INFO  [v.siscom.controller.CompraController] - Parcela 1 gerada. Valor: 30.0
+07/07/2026 17:03:29 INFO  [v.siscom.controller.CompraController] - Parcelas geradas com sucesso.
+07/07/2026 17:03:29 INFO  [v.siscom.controller.CompraController] - Compra finalizada com sucesso.
+07/07/2026 17:03:31 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 17:03:31 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 17:03:31 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:03:31 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:03:33 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 1, solicitado: 1, disponivel: true
+07/07/2026 17:03:44 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:03:44 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:03:47 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 17:03:47 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 17:03:47 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:03:47 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:04:15 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 1, solicitado: 1, disponivel: true
+07/07/2026 17:04:16 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 1, solicitado: 1, disponivel: true
+07/07/2026 17:04:17 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 1, solicitado: 1, disponivel: true
+07/07/2026 17:04:18 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 17:04:18 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 17:04:18 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 17:04:19 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+07/07/2026 17:04:19 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+07/07/2026 17:04:19 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+07/07/2026 17:04:19 WARN  [v.siscom.controller.VendaController] - Produto sem estoque. Produto ID: 3, estoque: 1
+07/07/2026 17:04:27 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 17:04:27 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 17:04:27 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:04:27 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:04:31 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 1, solicitado: 1, disponivel: true
+07/07/2026 17:05:54 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 17:05:54 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+07/07/2026 17:05:54 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+07/07/2026 17:05:54 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+07/07/2026 17:05:55 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+07/07/2026 17:05:55 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+07/07/2026 17:05:57 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07/07/2026 17:05:57 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d2e083d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+07/07/2026 17:05:58 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+07/07/2026 17:06:01 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 17:06:01 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 17:06:01 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:06:01 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:06:05 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 1, solicitado: 1, disponivel: true
+07/07/2026 17:08:22 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 17:08:22 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+07/07/2026 17:08:22 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+07/07/2026 17:08:22 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+07/07/2026 17:08:23 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+07/07/2026 17:08:23 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+07/07/2026 17:08:25 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07/07/2026 17:08:25 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55099991] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+07/07/2026 17:08:25 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+07/07/2026 17:08:30 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:08:30 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:08:35 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+07/07/2026 17:08:35 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+07/07/2026 17:08:35 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:08:35 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:08:38 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 1, solicitado: 1, disponivel: false
+07/07/2026 17:08:48 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 1, solicitado: 1, disponivel: false
+07/07/2026 17:08:59 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 5. Estoque: 1, solicitado: 1, disponivel: false
+07/07/2026 17:09:03 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 5. Estoque: 1, solicitado: 2, disponivel: false
+07/07/2026 17:09:06 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 1. Estoque: 50, solicitado: 2, disponivel: true
+07/07/2026 17:09:09 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 0, solicitado: 2, disponivel: false
+07/07/2026 17:09:14 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 0, solicitado: 2, disponivel: false
+07/07/2026 17:09:16 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 0, solicitado: 1, disponivel: false
+07/07/2026 17:09:19 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 0, solicitado: 3, disponivel: false
+07/07/2026 17:09:22 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 17:09:22 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 17:18:29 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 17:18:29 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+07/07/2026 17:18:29 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+07/07/2026 17:18:30 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+07/07/2026 17:18:30 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+07/07/2026 17:18:30 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+07/07/2026 17:18:32 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07/07/2026 17:18:32 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@523265cd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+07/07/2026 17:18:33 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: false
+07/07/2026 17:18:36 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 17:18:36 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+07/07/2026 17:18:40 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 17:18:40 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 17:18:40 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 17:18:40 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+07/07/2026 17:18:40 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 20
+07/07/2026 17:19:29 INFO  [v.s.controller.FinanceiroController] - Iniciando salvamento manual do lançamento financeiro.
+07/07/2026 17:19:29 INFO  [v.s.controller.FinanceiroController] - Gerando parcelas automaticamente.
+07/07/2026 17:19:29 INFO  [v.s.controller.FinanceiroController] - Parcela 1 gerada.
+07/07/2026 17:19:29 INFO  [v.s.controller.FinanceiroController] - Lançamento financeiro manual salvo com sucesso.
+07/07/2026 17:19:30 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+07/07/2026 17:19:30 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 21
+07/07/2026 17:19:33 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: Empresa, Forma: null, Movimentacao: null
+07/07/2026 17:19:33 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 2
+07/07/2026 17:19:37 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 21
+07/07/2026 17:19:37 INFO  [v.s.controller.FinanceiroController] - Lançamento financeiro excluído com sucesso.
+07/07/2026 17:19:37 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: Empresa, Forma: null, Movimentacao: null
+07/07/2026 17:19:37 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 1
+07/07/2026 17:19:50 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: Empresa, Forma: null, Movimentacao: null
+07/07/2026 17:19:50 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 1
+07/07/2026 17:19:51 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: Empresa, Forma: null, Movimentacao: null
+07/07/2026 17:19:51 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 1
+07/07/2026 17:19:54 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 4
+07/07/2026 17:19:54 WARN  [venda.siscom.dao.FinanceiroDAO] - Conta gerada por Compra/Venda nao pode ser excluida.
+07/07/2026 17:19:54 WARN  [v.s.controller.FinanceiroController] - Falha ao excluir lançamento financeiro. ID: 4
+07/07/2026 17:19:54 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: Empresa, Forma: null, Movimentacao: null
+07/07/2026 17:19:54 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 1
+07/07/2026 17:20:24 INFO  [v.s.controller.FinanceiroController] - Iniciando salvamento manual do lançamento financeiro.
+07/07/2026 17:20:24 INFO  [v.s.controller.FinanceiroController] - Gerando parcelas automaticamente.
+07/07/2026 17:20:24 INFO  [v.s.controller.FinanceiroController] - Parcela 1 gerada.
+07/07/2026 17:20:24 INFO  [v.s.controller.FinanceiroController] - Lançamento financeiro manual salvo com sucesso.
+07/07/2026 17:20:26 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: Empresa, Forma: null, Movimentacao: null
+07/07/2026 17:20:26 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 2
+07/07/2026 17:20:46 INFO  [v.s.controller.FinanceiroController] - Iniciando salvamento manual do lançamento financeiro.
+07/07/2026 17:20:46 INFO  [v.s.controller.FinanceiroController] - Gerando parcelas automaticamente.
+07/07/2026 17:20:46 INFO  [v.s.controller.FinanceiroController] - Parcela 1 gerada.
+07/07/2026 17:20:46 INFO  [v.s.controller.FinanceiroController] - Lançamento financeiro manual salvo com sucesso.
+07/07/2026 17:20:47 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: Empresa, Forma: null, Movimentacao: null
+07/07/2026 17:20:47 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 2
+07/07/2026 17:20:54 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: Empresa, Forma: null, Movimentacao: 0
+07/07/2026 17:20:54 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 1
+07/07/2026 17:21:01 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 22
+07/07/2026 17:21:01 INFO  [v.s.controller.FinanceiroController] - Lançamento financeiro excluído com sucesso.
+07/07/2026 17:21:01 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: Empresa, Forma: null, Movimentacao: 0
+07/07/2026 17:21:01 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 0
+07/07/2026 17:21:07 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: Compra, Forma: null, Movimentacao: 0
+07/07/2026 17:21:07 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 13
+07/07/2026 17:21:15 INFO  [v.s.controller.FinanceiroController] - Excluindo lançamento financeiro. ID: 23
+07/07/2026 17:21:15 INFO  [v.s.controller.FinanceiroController] - Lançamento financeiro excluído com sucesso.
+07/07/2026 17:21:15 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: Compra, Forma: null, Movimentacao: 0
+07/07/2026 17:21:15 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 12
+07/07/2026 18:05:30 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 18:05:31 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+07/07/2026 18:05:31 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+07/07/2026 18:05:31 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+07/07/2026 18:05:32 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+07/07/2026 18:05:32 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+07/07/2026 18:05:34 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07/07/2026 18:05:34 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@df69220] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+07/07/2026 18:05:34 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: false
+07/07/2026 18:05:37 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+07/07/2026 18:05:37 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+07/07/2026 18:05:44 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 18:05:44 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 18:05:46 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 1
+07/07/2026 18:05:46 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 1
+07/07/2026 18:05:46 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 1
+07/07/2026 18:05:46 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 1
+07/07/2026 18:05:51 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+07/07/2026 18:05:51 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+07/07/2026 18:05:51 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+07/07/2026 18:05:51 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+07/07/2026 18:06:05 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+07/07/2026 18:06:05 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+07/07/2026 18:06:05 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 18:06:05 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 18:06:05 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 18:06:21 INFO  [v.siscom.controller.CompraController] - Iniciando finalização da compra.
+07/07/2026 18:06:21 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 4
+07/07/2026 18:06:21 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+07/07/2026 18:06:21 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+07/07/2026 18:06:21 INFO  [v.siscom.controller.CompraController] - Valor total da compra: 600.0
+07/07/2026 18:06:21 INFO  [v.siscom.controller.CompraController] - Salvando compra.
+07/07/2026 18:06:21 INFO  [v.siscom.controller.CompraController] - Atualizando estoque dos produtos.
+07/07/2026 18:06:21 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 4 concluido: true
+07/07/2026 18:06:21 INFO  [v.siscom.controller.CompraController] - Gerando lançamento financeiro.
+07/07/2026 18:06:21 INFO  [v.siscom.controller.CompraController] - Gerando 1 parcela(s).
+07/07/2026 18:06:21 INFO  [v.siscom.controller.CompraController] - Gerando parcelas do financeiro.
+07/07/2026 18:06:21 INFO  [v.siscom.controller.CompraController] - Quantidade de parcelas: 1
+07/07/2026 18:06:21 INFO  [v.siscom.controller.CompraController] - Prazo entre parcelas: 30 dias.
+07/07/2026 18:06:21 INFO  [v.siscom.controller.CompraController] - Parcela 1 gerada. Valor: 600.0
+07/07/2026 18:06:21 INFO  [v.siscom.controller.CompraController] - Parcelas geradas com sucesso.
+07/07/2026 18:06:21 INFO  [v.siscom.controller.CompraController] - Compra finalizada com sucesso.
+07/07/2026 18:06:24 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 18:06:24 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 18:06:25 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+07/07/2026 18:06:25 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+07/07/2026 18:06:25 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+07/07/2026 18:06:25 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+07/07/2026 18:06:37 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+07/07/2026 18:06:37 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+07/07/2026 18:06:37 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+07/07/2026 18:06:37 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+07/07/2026 18:06:37 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+07/07/2026 18:06:57 INFO  [v.siscom.controller.CompraController] - Iniciando finalização da compra.
+07/07/2026 18:06:57 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 4
+07/07/2026 18:06:57 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+07/07/2026 18:06:57 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+07/07/2026 18:06:57 INFO  [v.siscom.controller.CompraController] - Valor total da compra: 750.0
+07/07/2026 18:06:57 INFO  [v.siscom.controller.CompraController] - Salvando compra.
+07/07/2026 18:06:57 INFO  [v.siscom.controller.CompraController] - Atualizando estoque dos produtos.
+07/07/2026 18:06:57 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 4 concluido: true
+07/07/2026 18:06:57 INFO  [v.siscom.controller.CompraController] - Gerando lançamento financeiro.
+07/07/2026 18:06:57 INFO  [v.siscom.controller.CompraController] - Gerando 1 parcela(s).
+07/07/2026 18:06:57 INFO  [v.siscom.controller.CompraController] - Gerando parcelas do financeiro.
+07/07/2026 18:06:57 INFO  [v.siscom.controller.CompraController] - Quantidade de parcelas: 1
+07/07/2026 18:06:57 INFO  [v.siscom.controller.CompraController] - Prazo entre parcelas: 30 dias.
+07/07/2026 18:06:57 INFO  [v.siscom.controller.CompraController] - Parcela 1 gerada. Valor: 750.0
+07/07/2026 18:06:57 INFO  [v.siscom.controller.CompraController] - Parcelas geradas com sucesso.
+07/07/2026 18:06:57 INFO  [v.siscom.controller.CompraController] - Compra finalizada com sucesso.
+07/07/2026 18:06:59 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 18:06:59 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 18:07:00 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+07/07/2026 18:07:00 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+07/07/2026 18:07:00 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+07/07/2026 18:07:00 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+07/07/2026 18:07:37 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 18:07:37 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 18:07:55 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 18:07:55 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+07/07/2026 18:07:57 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+07/07/2026 18:07:57 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+07/07/2026 18:07:57 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+07/07/2026 18:07:57 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+07/07/2026 18:08:19 INFO  [v.s.controller.CategoriaController] - Pesquisando categoria. ID: 1
+07/07/2026 18:08:19 INFO  [v.s.controller.CategoriaController] - Categoria encontrada. ID: 1
+07/07/2026 18:08:23 INFO  [v.s.controller.CategoriaController] - Pesquisando categoria. ID: 2
+07/07/2026 18:08:23 INFO  [v.s.controller.CategoriaController] - Categoria encontrada. ID: 2
+07/07/2026 18:08:25 INFO  [v.s.controller.CategoriaController] - Pesquisando categoria. ID: 3
+07/07/2026 18:08:25 INFO  [v.s.controller.CategoriaController] - Categoria encontrada. ID: 3
+07/07/2026 18:08:33 INFO  [v.s.controller.CategoriaController] - Iniciando alteracao de categoria.
+07/07/2026 18:08:33 INFO  [v.s.controller.CategoriaController] - Categoria alterada com sucesso.
+07/07/2026 18:08:37 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+07/07/2026 18:08:37 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 02:26:28 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 02:26:28 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 02:26:28 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 02:26:29 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 02:26:29 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 02:26:29 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 02:26:32 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 02:26:33 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4cab8a75] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 02:26:34 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: false
+09/07/2026 02:26:39 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 02:26:39 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 02:26:45 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 02:26:45 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 02:26:48 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 1
+09/07/2026 02:26:48 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 1
+09/07/2026 02:26:48 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 1
+09/07/2026 02:26:48 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 1
+09/07/2026 02:26:51 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+09/07/2026 02:26:51 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+09/07/2026 02:26:51 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+09/07/2026 02:26:51 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+09/07/2026 02:26:52 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+09/07/2026 02:26:52 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+09/07/2026 02:26:52 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+09/07/2026 02:26:52 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+09/07/2026 02:26:56 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+09/07/2026 02:26:56 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+09/07/2026 02:26:56 INFO  [v.s.controller.ProdutoController] - Buscando ou criando categoria: quimicoss
+09/07/2026 02:26:56 INFO  [v.s.controller.ProdutoController] - Iniciando alteracao de produto.
+09/07/2026 02:26:56 INFO  [v.s.controller.ProdutoController] - Produto alterado com sucesso.
+09/07/2026 02:26:58 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 02:26:58 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 02:26:59 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 02:26:59 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 02:26:59 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 02:26:59 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 02:27:01 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+09/07/2026 02:27:01 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+09/07/2026 02:27:01 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+09/07/2026 02:27:01 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+09/07/2026 02:27:02 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 1
+09/07/2026 02:27:02 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 1
+09/07/2026 02:27:02 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 1
+09/07/2026 02:27:02 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 1
+09/07/2026 02:27:03 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 2
+09/07/2026 02:27:03 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 2
+09/07/2026 02:27:04 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 2
+09/07/2026 02:27:04 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 2
+09/07/2026 02:27:05 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+09/07/2026 02:27:05 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+09/07/2026 02:27:05 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+09/07/2026 02:27:05 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+09/07/2026 02:36:52 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 02:36:52 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 02:36:52 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 02:36:52 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 02:36:53 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 02:36:53 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 02:36:55 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 02:36:55 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72c96c7e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 02:36:55 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 02:37:02 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 02:37:03 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 02:37:04 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 2
+09/07/2026 02:37:04 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 2
+09/07/2026 02:37:04 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 2
+09/07/2026 02:37:04 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 2
+09/07/2026 02:37:04 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 1
+09/07/2026 02:37:04 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 1
+09/07/2026 02:37:04 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 1
+09/07/2026 02:37:04 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 1
+09/07/2026 02:37:06 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+09/07/2026 02:37:06 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+09/07/2026 02:37:06 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+09/07/2026 02:37:06 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+09/07/2026 02:37:10 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+09/07/2026 02:37:10 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+09/07/2026 02:37:10 INFO  [v.s.controller.ProdutoController] - Buscando ou criando categoria: gelados
+09/07/2026 02:37:10 INFO  [v.s.controller.ProdutoController] - Iniciando alteracao de produto.
+09/07/2026 02:37:10 INFO  [v.s.controller.ProdutoController] - Produto alterado com sucesso.
+09/07/2026 02:37:11 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 02:37:11 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 02:37:12 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+09/07/2026 02:37:12 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+09/07/2026 02:37:12 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+09/07/2026 02:37:12 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+09/07/2026 02:37:15 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+09/07/2026 02:37:15 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+09/07/2026 02:37:15 INFO  [v.s.controller.ProdutoController] - Buscando ou criando categoria: quimico
+09/07/2026 02:37:15 INFO  [v.s.controller.ProdutoController] - Iniciando alteracao de produto.
+09/07/2026 02:37:15 INFO  [v.s.controller.ProdutoController] - Produto alterado com sucesso.
+09/07/2026 02:37:16 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 02:37:16 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 02:37:17 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+09/07/2026 02:37:17 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+09/07/2026 02:37:17 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+09/07/2026 02:37:17 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+09/07/2026 02:37:18 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+09/07/2026 02:37:18 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+09/07/2026 02:37:18 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 5
+09/07/2026 02:37:18 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 5
+09/07/2026 02:37:40 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 02:37:40 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 02:37:40 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 02:37:40 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 02:37:41 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 02:37:41 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 02:37:43 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 02:37:43 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2ad5f51a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 02:37:44 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 02:37:47 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 02:37:47 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 7
+09/07/2026 02:37:47 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 02:37:47 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 02:38:08 INFO  [v.s.controller.CategoriaController] - Pesquisando categoria. ID: 5
+09/07/2026 02:38:08 INFO  [v.s.controller.CategoriaController] - Categoria encontrada. ID: 5
+09/07/2026 02:38:11 INFO  [v.s.controller.CategoriaController] - Iniciando alteracao de categoria.
+09/07/2026 02:38:11 WARN  [o.h.e.jdbc.spi.SqlExceptionHelper] - SQL Error: 0, SQLState: 23505
+09/07/2026 02:38:11 ERROR [o.h.e.jdbc.spi.SqlExceptionHelper] - ERROR: duplicate key value violates unique constraint "categoria_nome_key"
+  Detalhe: Key (nome)=(quimicos) already exists.
+09/07/2026 02:38:11 WARN  [v.s.controller.CategoriaController] - Falha ao alterar categoria.
+09/07/2026 02:38:13 INFO  [v.s.controller.CategoriaController] - Excluindo categoria. ID: 5
+09/07/2026 02:38:13 INFO  [v.s.controller.CategoriaController] - Categoria excluida com sucesso. ID: 5
+09/07/2026 02:38:18 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 02:38:18 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 02:38:18 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 02:38:18 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 02:40:49 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 02:40:49 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 02:40:50 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 02:40:50 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 02:40:50 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 02:40:50 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 02:40:52 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 02:40:52 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7538b230] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 02:40:53 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 02:40:57 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 02:40:57 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 02:41:09 INFO  [v.s.controller.CategoriaController] - Pesquisando categoria. ID: 5
+09/07/2026 02:41:09 WARN  [v.s.controller.CategoriaController] - Categoria nao encontrada. ID: 5
+09/07/2026 02:41:14 INFO  [v.s.controller.CategoriaController] - Pesquisando categoria. ID: 3
+09/07/2026 02:41:14 INFO  [v.s.controller.CategoriaController] - Categoria encontrada. ID: 3
+09/07/2026 02:43:04 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 02:43:04 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 02:43:04 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 02:43:05 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 02:43:05 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 02:43:05 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 02:43:07 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 02:43:07 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55099991] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 02:43:08 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 02:43:13 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 02:43:13 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 02:43:20 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 02:43:20 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 02:43:27 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:43:27 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 02:43:27 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 02:43:27 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 02:43:27 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Iniciando finalização da compra.
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 4
+09/07/2026 02:43:46 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 02:43:46 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 4
+09/07/2026 02:43:46 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 02:43:46 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Valor total da compra: 460.0
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Salvando compra.
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Atualizando estoque dos produtos.
+09/07/2026 02:43:46 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 4 concluido: true
+09/07/2026 02:43:46 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 4 concluido: true
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Gerando lançamento financeiro.
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Gerando 1 parcela(s).
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Gerando parcelas do financeiro.
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Quantidade de parcelas: 1
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Prazo entre parcelas: 30 dias.
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Parcela 1 gerada. Valor: 460.0
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Parcelas geradas com sucesso.
+09/07/2026 02:43:46 INFO  [v.siscom.controller.CompraController] - Compra finalizada com sucesso.
+09/07/2026 02:43:49 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 02:43:49 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+09/07/2026 02:43:49 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 02:43:49 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 02:43:54 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 8, solicitado: 1, disponivel: true
+09/07/2026 02:43:55 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 02:43:55 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 02:43:55 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 02:44:04 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+09/07/2026 02:44:04 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 02:44:04 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 02:44:04 INFO  [v.s.controller.ProdutoController] - Baixa de estoque do produto ID 4 concluida: true
+09/07/2026 02:44:04 INFO  [v.siscom.controller.VendaController] - Executando gerar parcelas da venda. Parcelas: 1, prazo: 30, valor: 260.0
+09/07/2026 02:44:04 INFO  [v.siscom.controller.VendaController] - Parcela da venda gerada. Numero: 1, vencimento: 2026-07-09, valor: 260.0
+09/07/2026 02:44:04 INFO  [v.siscom.controller.VendaController] - Geracao de parcelas da venda concluida. Total parcelas: 1
+09/07/2026 02:44:04 INFO  [v.siscom.controller.VendaController] - Venda finalizada com sucesso. ID: 8, valor: 260.0
+09/07/2026 02:44:09 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 02:44:09 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 02:44:09 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 02:44:09 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+09/07/2026 02:44:10 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 24
+09/07/2026 02:44:16 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+09/07/2026 02:44:16 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 24
+09/07/2026 02:44:26 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 1
+09/07/2026 02:44:26 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 8
+09/07/2026 02:44:29 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 0
+09/07/2026 02:44:29 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 16
+09/07/2026 02:44:45 INFO  [v.s.controller.FinanceiroController] - Iniciando alteração do lançamento financeiro.
+09/07/2026 02:44:45 INFO  [v.s.controller.FinanceiroController] - Lançamento financeiro alterado com sucesso.
+09/07/2026 02:44:45 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: 0
+09/07/2026 02:44:45 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 16
+09/07/2026 02:48:06 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 02:48:06 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 02:48:06 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 02:48:06 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+09/07/2026 02:48:06 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 24
+09/07/2026 02:57:39 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:57:44 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:57:50 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:57:51 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:57:51 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:57:52 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:58:04 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:58:04 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:58:05 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:58:06 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:58:06 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:58:07 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:58:14 INFO  [v.s.controller.FornecedorController] - Pesquisando fornecedor ID: 2
+09/07/2026 02:58:16 INFO  [v.s.controller.FornecedorController] - Iniciando alteração de fornecedor.
+09/07/2026 02:58:16 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:58:17 INFO  [v.s.controller.FornecedorController] - Pesquisando fornecedor ID: 1
+09/07/2026 02:58:21 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:58:22 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:58:22 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:58:25 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 02:58:25 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+09/07/2026 02:58:36 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 02:58:36 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 02:58:36 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 02:58:36 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 02:58:46 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 02:58:46 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 02:58:46 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 02:58:46 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+09/07/2026 02:59:03 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 02:59:03 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+09/07/2026 03:00:50 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:00:51 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:00:51 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:00:51 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:00:52 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:00:53 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:01:08 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:02:14 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 03:02:14 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 03:02:14 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 03:02:15 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 03:02:15 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 03:02:15 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 03:02:17 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 03:02:17 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@29017569] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 03:02:18 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 03:02:21 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 03:02:21 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+09/07/2026 03:02:25 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 03:02:25 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+09/07/2026 03:02:29 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:05:19 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 03:05:19 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 03:05:19 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 03:05:20 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 03:05:20 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 03:05:20 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 03:05:22 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 03:05:22 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55099991] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 03:05:23 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 03:05:27 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:05:39 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:05:59 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:05:59 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 03:05:59 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:05:59 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 03:05:59 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 03:06:03 INFO  [v.siscom.controller.CompraController] - Iniciando finalização da compra.
+09/07/2026 03:06:03 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 4
+09/07/2026 03:06:03 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 03:06:03 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 03:06:03 INFO  [v.siscom.controller.CompraController] - Valor total da compra: 0.0
+09/07/2026 03:06:03 INFO  [v.siscom.controller.CompraController] - Salvando compra.
+09/07/2026 03:06:03 INFO  [v.siscom.controller.CompraController] - Atualizando estoque dos produtos.
+09/07/2026 03:06:03 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 4 concluido: true
+09/07/2026 03:06:03 INFO  [v.siscom.controller.CompraController] - Gerando lançamento financeiro.
+09/07/2026 03:06:03 INFO  [v.siscom.controller.CompraController] - Gerando 1 parcela(s).
+09/07/2026 03:06:03 INFO  [v.siscom.controller.CompraController] - Gerando parcelas do financeiro.
+09/07/2026 03:06:03 INFO  [v.siscom.controller.CompraController] - Quantidade de parcelas: 1
+09/07/2026 03:06:03 INFO  [v.siscom.controller.CompraController] - Prazo entre parcelas: 30 dias.
+09/07/2026 03:06:03 INFO  [v.siscom.controller.CompraController] - Parcela 1 gerada. Valor: 0.0
+09/07/2026 03:06:03 INFO  [v.siscom.controller.CompraController] - Parcelas geradas com sucesso.
+09/07/2026 03:06:03 INFO  [v.siscom.controller.CompraController] - Compra finalizada com sucesso.
+09/07/2026 03:06:33 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:06:33 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 03:06:33 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:06:33 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 03:06:33 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Iniciando finalização da compra.
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 3
+09/07/2026 03:07:02 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+09/07/2026 03:07:02 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 4
+09/07/2026 03:07:02 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 03:07:02 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Valor total da compra: 50.0
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Salvando compra.
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Atualizando estoque dos produtos.
+09/07/2026 03:07:02 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 3 concluido: true
+09/07/2026 03:07:02 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 4 concluido: true
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Gerando lançamento financeiro.
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Gerando 1 parcela(s).
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Gerando parcelas do financeiro.
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Quantidade de parcelas: 1
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Prazo entre parcelas: 30 dias.
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Parcela 1 gerada. Valor: 50.0
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Parcelas geradas com sucesso.
+09/07/2026 03:07:02 INFO  [v.siscom.controller.CompraController] - Compra finalizada com sucesso.
+09/07/2026 03:07:48 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:07:48 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 03:07:48 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:07:48 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 03:07:48 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 03:07:55 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 4
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Iniciando finalização da compra.
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 4
+09/07/2026 03:08:02 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 03:08:02 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 2
+09/07/2026 03:08:02 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 2
+09/07/2026 03:08:02 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 2
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Valor total da compra: 80.0
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Salvando compra.
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Atualizando estoque dos produtos.
+09/07/2026 03:08:02 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 4 concluido: true
+09/07/2026 03:08:02 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 2 concluido: true
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Gerando lançamento financeiro.
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Gerando 1 parcela(s).
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Gerando parcelas do financeiro.
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Quantidade de parcelas: 1
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Prazo entre parcelas: 30 dias.
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Parcela 1 gerada. Valor: 80.0
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Parcelas geradas com sucesso.
+09/07/2026 03:08:02 INFO  [v.siscom.controller.CompraController] - Compra finalizada com sucesso.
+09/07/2026 03:18:14 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 03:18:14 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 03:18:14 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 03:18:14 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 03:18:15 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 03:18:15 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 03:18:17 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 03:18:17 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@767fcbe3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 03:18:17 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 03:18:21 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:18:22 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 03:18:22 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:18:22 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 03:18:22 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 03:18:38 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 4
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Iniciando finalização da compra.
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 4
+09/07/2026 03:18:40 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 03:18:40 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 3
+09/07/2026 03:18:40 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+09/07/2026 03:18:40 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 2
+09/07/2026 03:18:40 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 2
+09/07/2026 03:18:40 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 2
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Valor total da compra: 310.0
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Salvando compra.
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Atualizando estoque dos produtos.
+09/07/2026 03:18:40 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 4 concluido: true
+09/07/2026 03:18:40 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 3 concluido: true
+09/07/2026 03:18:40 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 2 concluido: true
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Gerando lançamento financeiro.
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Gerando 1 parcela(s).
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Gerando parcelas do financeiro.
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Quantidade de parcelas: 1
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Prazo entre parcelas: 30 dias.
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Parcela 1 gerada. Valor: 310.0
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Parcelas geradas com sucesso.
+09/07/2026 03:18:40 INFO  [v.siscom.controller.CompraController] - Compra finalizada com sucesso.
+09/07/2026 03:21:55 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 03:21:55 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 03:21:55 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 03:21:55 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 03:22:01 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 03:22:01 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+09/07/2026 03:22:01 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 03:22:01 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 03:22:05 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 3, solicitado: 1, disponivel: true
+09/07/2026 03:22:08 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 11, solicitado: 1, disponivel: true
+09/07/2026 03:22:09 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:22:09 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 03:22:09 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 03:22:10 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+09/07/2026 03:22:10 WARN  [v.siscom.controller.VendaController] - Cliente atingiu o limite de vendas no mes. CPF: 6666
+09/07/2026 03:22:14 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 03:22:14 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 4
+09/07/2026 03:22:25 INFO  [v.s.controller.ClienteController] - Iniciando salvamento do cliente.
+09/07/2026 03:22:25 INFO  [v.s.controller.ClienteController] - Cliente salvo com sucesso.
+09/07/2026 03:22:26 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 03:22:26 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 03:22:26 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 03:22:26 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 03:22:28 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:22:28 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 03:22:28 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:22:28 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 03:22:28 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 03:22:31 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 03:22:31 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 03:22:31 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 03:22:31 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 03:22:36 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 11, solicitado: 1, disponivel: true
+09/07/2026 03:22:38 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 3. Estoque: 3, solicitado: 1, disponivel: true
+09/07/2026 03:22:39 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:22:39 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 03:22:39 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 03:22:40 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+09/07/2026 03:22:40 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 03:22:40 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 03:22:40 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+09/07/2026 03:22:40 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+09/07/2026 03:22:40 INFO  [v.s.controller.ProdutoController] - Baixa de estoque do produto ID 4 concluida: true
+09/07/2026 03:22:40 INFO  [v.s.controller.ProdutoController] - Baixa de estoque do produto ID 3 concluida: true
+09/07/2026 03:22:40 INFO  [v.siscom.controller.VendaController] - Executando gerar parcelas da venda. Parcelas: 1, prazo: 0, valor: 290.0
+09/07/2026 03:22:40 WARN  [v.siscom.controller.VendaController] - Prazo de parcelas invalido. Usando 30 dias.
+09/07/2026 03:22:40 INFO  [v.siscom.controller.VendaController] - Parcela da venda gerada. Numero: 1, vencimento: 2026-07-09, valor: 290.0
+09/07/2026 03:22:40 INFO  [v.siscom.controller.VendaController] - Geracao de parcelas da venda concluida. Total parcelas: 1
+09/07/2026 03:22:40 INFO  [v.siscom.controller.VendaController] - Venda finalizada com sucesso. ID: 9, valor: 290.0
+09/07/2026 03:30:52 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 03:30:53 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 03:30:53 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 03:30:53 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 03:30:54 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 03:30:54 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 03:30:56 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 03:30:56 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@df69220] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 03:30:57 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 03:33:15 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 03:33:15 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 03:33:15 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 03:33:15 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 03:33:16 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 03:33:16 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 03:33:18 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 03:33:18 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6a108dcd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 03:33:19 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 03:38:15 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 03:38:15 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 03:38:16 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 03:38:16 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 03:38:16 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 03:38:16 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 03:38:19 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 03:38:19 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@767fcbe3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 03:38:19 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 03:38:25 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 03:38:25 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 03:38:25 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:38:25 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+09/07/2026 03:38:26 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 29
+09/07/2026 03:38:30 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 03:38:30 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 03:38:33 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 03:38:33 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 03:38:33 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 03:38:33 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 03:38:35 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:38:35 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 03:38:36 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 03:38:36 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+09/07/2026 03:38:40 INFO  [v.siscom.view.FormaPagamentoView] - Executando construtor FormaPagamentoView.
+09/07/2026 03:38:40 INFO  [v.siscom.view.FormaPagamentoView] - Executando inicializar componentes de formas de pagamento.
+09/07/2026 03:38:40 INFO  [v.siscom.view.FormaPagamentoView] - Executando atualizar tabela de formas de pagamento.
+09/07/2026 03:38:40 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:38:40 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:38:40 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:38:40 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:38:40 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:38:40 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:38:40 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:38:40 INFO  [v.siscom.view.FormaPagamentoView] - Executando configurar eventos de formas de pagamento.
+09/07/2026 03:38:40 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:38:40 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:38:45 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 9
+09/07/2026 03:38:45 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:38:45 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:38:45 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:38:45 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Executando alterar forma de pagamento pela tela.
+09/07/2026 03:38:51 INFO  [v.s.c.FormaPagamentoController] - Iniciando alteração de forma de pagamento.
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Resultado alterar forma de pagamento pela tela: true
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Executando atualizar tabela de formas de pagamento.
+09/07/2026 03:38:51 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Executando limpar campos de forma de pagamento.
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:38:51 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:38:53 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 9
+09/07/2026 03:38:53 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:38:53 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:38:53 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:38:53 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Executando excluir forma de pagamento pela tela.
+09/07/2026 03:39:07 INFO  [v.s.c.FormaPagamentoController] - Excluindo forma de pagamento ID: 9
+09/07/2026 03:39:07 WARN  [o.h.e.jdbc.spi.SqlExceptionHelper] - SQL Error: 0, SQLState: 23503
+09/07/2026 03:39:07 ERROR [o.h.e.jdbc.spi.SqlExceptionHelper] - ERROR: update or delete on table "forma_pagamento" violates foreign key constraint "fkim9i6aww44k7jmf5bsqy9hd8p" on table "financeiro"
+  Detalhe: Key (id)=(9) is still referenced from table "financeiro".
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Resultado excluir forma de pagamento pela tela: false
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Executando atualizar tabela de formas de pagamento.
+09/07/2026 03:39:07 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Executando limpar campos de forma de pagamento.
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:07 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:39:09 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 9
+09/07/2026 03:39:09 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:09 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:39:09 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:09 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Executando excluir forma de pagamento pela tela.
+09/07/2026 03:39:10 INFO  [v.s.c.FormaPagamentoController] - Excluindo forma de pagamento ID: 9
+09/07/2026 03:39:10 WARN  [o.h.e.jdbc.spi.SqlExceptionHelper] - SQL Error: 0, SQLState: 23503
+09/07/2026 03:39:10 ERROR [o.h.e.jdbc.spi.SqlExceptionHelper] - ERROR: update or delete on table "forma_pagamento" violates foreign key constraint "fkim9i6aww44k7jmf5bsqy9hd8p" on table "financeiro"
+  Detalhe: Key (id)=(9) is still referenced from table "financeiro".
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Resultado excluir forma de pagamento pela tela: false
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Executando atualizar tabela de formas de pagamento.
+09/07/2026 03:39:10 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Executando limpar campos de forma de pagamento.
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:10 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:39:11 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 9
+09/07/2026 03:39:11 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:11 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:39:11 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:11 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:39:24 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 03:39:24 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 03:39:26 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:39:26 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 03:39:26 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 03:39:26 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+09/07/2026 03:39:30 INFO  [v.siscom.view.FormaPagamentoView] - Executando construtor FormaPagamentoView.
+09/07/2026 03:39:30 INFO  [v.siscom.view.FormaPagamentoView] - Executando inicializar componentes de formas de pagamento.
+09/07/2026 03:39:30 INFO  [v.siscom.view.FormaPagamentoView] - Executando atualizar tabela de formas de pagamento.
+09/07/2026 03:39:30 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:39:30 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:30 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:30 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:30 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:30 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:30 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:30 INFO  [v.siscom.view.FormaPagamentoView] - Executando configurar eventos de formas de pagamento.
+09/07/2026 03:39:30 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:30 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:39:32 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:32 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Prazo.
+09/07/2026 03:39:33 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 3
+09/07/2026 03:39:33 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:33 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:39:33 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:33 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Executando alterar forma de pagamento pela tela.
+09/07/2026 03:39:39 INFO  [v.s.c.FormaPagamentoController] - Iniciando alteração de forma de pagamento.
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Resultado alterar forma de pagamento pela tela: true
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Executando atualizar tabela de formas de pagamento.
+09/07/2026 03:39:39 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Executando limpar campos de forma de pagamento.
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:39:39 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:41:06 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 2
+09/07/2026 03:41:06 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:41:06 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:41:06 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:41:06 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Executando alterar forma de pagamento pela tela.
+09/07/2026 03:41:08 INFO  [v.s.c.FormaPagamentoController] - Iniciando alteração de forma de pagamento.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Resultado alterar forma de pagamento pela tela: true
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Executando atualizar tabela de formas de pagamento.
+09/07/2026 03:41:08 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Executando limpar campos de forma de pagamento.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:41:08 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 8
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Prazo.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:41:08 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Prazo.
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Executando alterar forma de pagamento pela tela.
+09/07/2026 03:41:09 INFO  [v.s.c.FormaPagamentoController] - Iniciando alteração de forma de pagamento.
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Resultado alterar forma de pagamento pela tela: true
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Executando atualizar tabela de formas de pagamento.
+09/07/2026 03:41:09 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Executando formatar tipo de pagamento.
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Executando limpar campos de forma de pagamento.
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Executando aplicar tipo de pagamento.
+09/07/2026 03:41:09 INFO  [v.siscom.view.FormaPagamentoView] - Tipo de pagamento aplicado: A Vista.
+09/07/2026 03:43:28 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 03:43:28 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 03:43:29 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 03:43:29 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 03:43:29 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 03:43:29 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 03:43:31 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 03:43:32 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@767fcbe3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 03:43:32 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 03:43:35 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:43:40 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 3
+09/07/2026 03:43:40 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 9
+09/07/2026 03:43:44 INFO  [v.s.c.FormaPagamentoController] - Iniciando alteração de forma de pagamento.
+09/07/2026 03:43:45 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:43:45 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:43:47 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 9
+09/07/2026 03:43:51 INFO  [v.s.c.FormaPagamentoController] - Iniciando alteração de forma de pagamento.
+09/07/2026 03:43:51 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:43:51 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:44:02 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 9
+09/07/2026 03:44:11 INFO  [v.s.c.FormaPagamentoController] - Excluindo forma de pagamento ID: 9
+09/07/2026 03:44:11 WARN  [o.h.e.jdbc.spi.SqlExceptionHelper] - SQL Error: 0, SQLState: 23503
+09/07/2026 03:44:11 ERROR [o.h.e.jdbc.spi.SqlExceptionHelper] - ERROR: update or delete on table "forma_pagamento" violates foreign key constraint "fkim9i6aww44k7jmf5bsqy9hd8p" on table "financeiro"
+  Detalhe: Key (id)=(9) is still referenced from table "financeiro".
+09/07/2026 03:44:26 INFO  [v.s.c.FormaPagamentoController] - Iniciando salvamento de forma de pagamento.
+09/07/2026 03:44:26 WARN  [o.h.e.jdbc.spi.SqlExceptionHelper] - SQL Error: 0, SQLState: 23505
+09/07/2026 03:44:26 ERROR [o.h.e.jdbc.spi.SqlExceptionHelper] - ERROR: duplicate key value violates unique constraint "forma_pagamento_nome_key"
+  Detalhe: Key (nome)=(Boleto) already exists.
+09/07/2026 03:44:32 INFO  [v.s.c.FormaPagamentoController] - Iniciando alteração de forma de pagamento.
+09/07/2026 03:44:32 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:44:32 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:44:34 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 2
+09/07/2026 03:44:35 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 1
+09/07/2026 03:44:37 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 3
+09/07/2026 03:44:43 INFO  [v.s.c.FormaPagamentoController] - Iniciando alteração de forma de pagamento.
+09/07/2026 03:44:44 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:44:44 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:44:47 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 4
+09/07/2026 03:44:49 INFO  [v.s.c.FormaPagamentoController] - Iniciando alteração de forma de pagamento.
+09/07/2026 03:44:50 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:44:50 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:44:52 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 3
+09/07/2026 03:44:54 INFO  [v.s.c.FormaPagamentoController] - Iniciando alteração de forma de pagamento.
+09/07/2026 03:44:55 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:44:55 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:44:56 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 9
+09/07/2026 03:44:57 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 2
+09/07/2026 03:44:58 INFO  [v.s.c.FormaPagamentoController] - Pesquisando forma de pagamento ID: 1
+09/07/2026 03:45:03 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:45:03 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 03:45:03 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 03:45:03 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+09/07/2026 03:45:07 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 03:45:07 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 03:45:09 INFO  [v.s.controller.ClienteController] - Pesquisando cliente pelo ID: 4
+09/07/2026 03:45:09 INFO  [v.s.controller.ClienteController] - Cliente encontrado.
+09/07/2026 03:45:11 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 03:45:11 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 03:45:11 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:45:11 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 03:45:11 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 03:45:15 INFO  [v.siscom.controller.CompraController] - Iniciando finalização da compra.
+09/07/2026 03:45:15 INFO  [v.siscom.controller.CompraController] - Processando produto ID: 4
+09/07/2026 03:45:15 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 03:45:15 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 03:45:15 INFO  [v.siscom.controller.CompraController] - Valor total da compra: 0.0
+09/07/2026 03:45:15 INFO  [v.siscom.controller.CompraController] - Salvando compra.
+09/07/2026 03:45:15 INFO  [v.siscom.controller.CompraController] - Atualizando estoque dos produtos.
+09/07/2026 03:45:15 INFO  [v.s.controller.ProdutoController] - Registro de compra do produto ID 4 concluido: true
+09/07/2026 03:45:15 INFO  [v.siscom.controller.CompraController] - Gerando lançamento financeiro.
+09/07/2026 03:45:15 INFO  [v.siscom.controller.CompraController] - Gerando 1 parcela(s).
+09/07/2026 03:45:15 INFO  [v.siscom.controller.CompraController] - Gerando parcelas do financeiro.
+09/07/2026 03:45:15 INFO  [v.siscom.controller.CompraController] - Quantidade de parcelas: 1
+09/07/2026 03:45:15 INFO  [v.siscom.controller.CompraController] - Prazo entre parcelas: 30 dias.
+09/07/2026 03:45:15 INFO  [v.siscom.controller.CompraController] - Parcela 1 gerada. Valor: 0.0
+09/07/2026 03:45:15 INFO  [v.siscom.controller.CompraController] - Parcelas geradas com sucesso.
+09/07/2026 03:45:15 INFO  [v.siscom.controller.CompraController] - Compra finalizada com sucesso.
+09/07/2026 03:45:17 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 03:45:17 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 03:45:17 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 03:45:17 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 03:45:25 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 11, solicitado: 1, disponivel: true
+09/07/2026 03:45:26 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:45:26 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 03:45:26 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 03:45:41 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+09/07/2026 03:45:41 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 03:45:41 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 03:45:41 INFO  [v.s.controller.ProdutoController] - Baixa de estoque do produto ID 4 concluida: true
+09/07/2026 03:45:41 INFO  [v.siscom.controller.VendaController] - Executando gerar parcelas da venda. Parcelas: 1, prazo: 30, valor: 260.0
+09/07/2026 03:45:41 INFO  [v.siscom.controller.VendaController] - Parcela da venda gerada. Numero: 1, vencimento: 2026-07-09, valor: 260.0
+09/07/2026 03:45:41 INFO  [v.siscom.controller.VendaController] - Geracao de parcelas da venda concluida. Total parcelas: 1
+09/07/2026 03:45:41 INFO  [v.siscom.controller.VendaController] - Venda finalizada com sucesso. ID: 10, valor: 260.0
+09/07/2026 03:45:45 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 03:45:45 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 03:45:45 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 03:45:45 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+09/07/2026 03:45:45 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 31
+09/07/2026 03:46:51 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 03:46:51 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 03:50:18 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 03:50:19 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 03:50:19 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 03:50:19 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 03:50:20 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 03:50:20 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 03:50:22 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 03:50:22 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@66831b2f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 03:50:23 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 04:22:47 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 04:22:48 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 04:22:48 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 04:22:48 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 04:22:49 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 04:22:49 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 04:22:51 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 04:22:51 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@465b36b8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 04:22:52 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
