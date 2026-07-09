@@ -15,7 +15,7 @@ public class CompraProdutoController {
 
     private final CompraProdutoDAO compraProdutoDAO = new CompraProdutoDAO();
 
-    // SALVAR
+    
     public boolean salvar(CompraProduto compraProduto) {
 
         logger.info("Iniciando salvamento do item da compra.");
@@ -31,7 +31,7 @@ public class CompraProdutoController {
         return resultado;
     }
 
-    // ALTERAR
+    
     public boolean alterar(CompraProduto compraProduto) {
 
         logger.info("Iniciando alteração do item da compra.");
@@ -47,7 +47,7 @@ public class CompraProdutoController {
         return resultado;
     }
 
-    // EXCLUIR
+    
     public boolean excluir(Integer id) {
 
         logger.info("Excluindo item da compra. ID: {}", id);
@@ -63,7 +63,7 @@ public class CompraProdutoController {
         return resultado;
     }
 
-    // PESQUISAR POR ID
+    
     public CompraProduto pesquisar(Integer id) {
 
         logger.info("Pesquisando item da compra por ID: {}", id);
@@ -79,7 +79,7 @@ public class CompraProdutoController {
         return compraProduto;
     }
 
-    // LISTAR TODOS
+    
     public List<CompraProduto> pesquisarTodos() {
 
         logger.info("Listando todos os itens de compra.");
@@ -91,7 +91,7 @@ public class CompraProdutoController {
         return lista;
     }
 
-    // LISTAR ITENS DE UMA COMPRA
+    
     public List<CompraProduto> pesquisarPorCompra(Compra compra) {
 
         logger.info("Listando itens da compra. ID da compra: {}", compra.getId());

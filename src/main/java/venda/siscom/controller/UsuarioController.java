@@ -13,7 +13,7 @@ public class UsuarioController {
 
     private final UsuarioDAO usuarioDAO = new UsuarioDAO();
 
-    // LOGIN
+    
     public Usuario efetuarLogin(String login, String senha) {
         logger.info("Executando efetuar login. Usuario: {}", login);
 

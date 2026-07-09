@@ -14,7 +14,7 @@ public class ClienteController {
 
     private final ClienteDAO clienteDAO = new ClienteDAO();
 
-    // SALVAR
+    
     public boolean salvar(Cliente cliente) {
         logger.info("Iniciando salvamento do cliente.");
 
@@ -29,7 +29,7 @@ public class ClienteController {
         return resultado;
     }
 
-    // ALTERAR
+    
     public boolean alterar(Cliente cliente) {
         logger.info("Iniciando alteração do cliente.");
 
@@ -44,7 +44,7 @@ public class ClienteController {
         return resultado;
     }
 
-    // EXCLUIR
+    
     public boolean excluir(Integer id) {
         logger.info("Excluindo cliente. ID: {}", id);
 
@@ -59,7 +59,7 @@ public class ClienteController {
         return resultado;
     }
 
-    // PESQUISAR POR ID
+    
     public Cliente pesquisar(Integer id) {
         logger.info("Pesquisando cliente pelo ID: {}", id);
 
@@ -74,7 +74,7 @@ public class ClienteController {
         return cliente;
     }
 
-    // LISTAR TODOS
+    
     public List<Cliente> pesquisarTodos() {
         logger.info("Listando todos os clientes.");
 
@@ -85,7 +85,7 @@ public class ClienteController {
         return lista;
     }
 
-    // PESQUISAR POR CPF
+    
     public Cliente pesquisarPorCpf(String cpf) {
         logger.info("Pesquisando cliente pelo CPF: {}", cpf);
 

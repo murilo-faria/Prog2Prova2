@@ -50,9 +50,9 @@ public class Compra {
         this.compraProdutos = compraProdutos;
     }
 
-    /**
-     * Método auxiliar para manter o relacionamento bidirecional.
-     */
+    
+
+
     public void adicionarProduto(CompraProduto produto) {
         this.compraProdutos.add(produto);
         produto.setCompra(this);

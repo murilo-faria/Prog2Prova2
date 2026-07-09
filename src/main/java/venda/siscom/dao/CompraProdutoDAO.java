@@ -11,7 +11,7 @@ import venda.siscom.util.HibernateUtil;
 
 public class CompraProdutoDAO {
 
-    // SALVAR
+    
     public boolean salvar(CompraProduto compraProduto) {
 
         Transaction transaction = null;
@@ -63,7 +63,7 @@ public class CompraProdutoDAO {
         }
     }
 
-    // EXCLUIR
+    
     public boolean excluir(Integer id) {
 
         Transaction transaction = null;
@@ -96,7 +96,7 @@ public class CompraProdutoDAO {
         }
     }
 
-    // PESQUISAR POR ID
+    
     public CompraProduto pesquisar(Integer id) {
 
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
@@ -111,7 +111,7 @@ public class CompraProdutoDAO {
         }
     }
 
-    // LISTAR TODOS
+    
     public List<CompraProduto> pesquisarTodos() {
 
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
@@ -129,7 +129,7 @@ public class CompraProdutoDAO {
         }
     }
 
-    // LISTAR ITENS DE UMA COMPRA
+    
     public List<CompraProduto> pesquisarPorCompra(Compra compra) {
 
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {

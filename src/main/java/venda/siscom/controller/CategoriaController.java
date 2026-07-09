@@ -15,7 +15,7 @@ public class CategoriaController {
 
     private final CategoriaDAO categoriaDAO = new CategoriaDAO();
 
-    // SALVAR
+    
     public boolean salvar(Categoria categoria) {
         logger.info("Iniciando salvamento de categoria.");
 
@@ -30,7 +30,7 @@ public class CategoriaController {
         return resultado;
     }
 
-    // ALTERAR
+    
     public boolean alterar(Categoria categoria) {
         logger.info("Iniciando alteracao de categoria.");
 
@@ -45,7 +45,7 @@ public class CategoriaController {
         return resultado;
     }
 
-    // EXCLUIR
+    
     public boolean excluir(Integer id) {
         logger.info("Excluindo categoria. ID: {}", id);
 
@@ -60,7 +60,7 @@ public class CategoriaController {
         return resultado;
     }
 
-    // PESQUISAR POR ID
+    
     public Categoria pesquisar(Integer id) {
         logger.info("Pesquisando categoria. ID: {}", id);
 
@@ -75,7 +75,7 @@ public class CategoriaController {
         return categoria;
     }
 
-    // LISTAR TODAS
+    
     public List<Categoria> pesquisarTodos() {
         logger.info("Listando todas as categorias.");
 
@@ -87,7 +87,7 @@ public class CategoriaController {
         return lista;
     }
 
-    // PESQUISAR POR NOME
+    
     public Categoria pesquisarPorNome(String nome) {
         logger.info("Pesquisando categoria por nome: {}", nome);
 

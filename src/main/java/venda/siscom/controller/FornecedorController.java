@@ -14,35 +14,35 @@ public class FornecedorController {
 
     private final FornecedorDAO fornecedorDAO = new FornecedorDAO();
 
-    // SALVAR
+    
     public boolean salvar(Fornecedor fornecedor) {
         logger.info("Iniciando salvamento de fornecedor.");
         
         return fornecedorDAO.salvar(fornecedor);
     }
 
-    // ALTERAR
+    
     public boolean alterar(Fornecedor fornecedor) {
         logger.info("Iniciando alteração de fornecedor.");
         
         return fornecedorDAO.alterar(fornecedor);
     }
 
-    // EXCLUIR
+    
     public boolean excluir(Integer id) {
         logger.info("Excluindo fornecedor ID: {}", id);
         
         return fornecedorDAO.excluir(id);
     }
 
-    // PESQUISAR POR ID
+    
     public Fornecedor pesquisar(Integer id) {
         logger.info("Pesquisando fornecedor ID: {}", id);
         
         return fornecedorDAO.pesquisar(id);
     }
 
-    // LISTAR TODOS
+    
     public List<Fornecedor> pesquisarTodos() {
         logger.info("Listando todos os fornecedores.");
         

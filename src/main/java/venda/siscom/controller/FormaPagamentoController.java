@@ -14,42 +14,42 @@ public class FormaPagamentoController {
 
     private final FormaPagamentoDAO formaPagamentoDAO = new FormaPagamentoDAO();
 
-    // SALVAR
+    
     public boolean salvar(FormaPagamento formaPagamento) {
         logger.info("Iniciando salvamento de forma de pagamento.");
         
         return formaPagamentoDAO.salvar(formaPagamento);
     }
 
-    // ALTERAR
+    
     public boolean alterar(FormaPagamento formaPagamento) {
         logger.info("Iniciando alteração de forma de pagamento.");
         
         return formaPagamentoDAO.alterar(formaPagamento);
     }
 
-    // EXCLUIR
+    
     public boolean excluir(Integer id) {
         logger.info("Excluindo forma de pagamento ID: {}", id);
         
         return formaPagamentoDAO.excluir(id);
     }
 
-    // PESQUISAR POR ID
+    
     public FormaPagamento pesquisar(Integer id) {
         logger.info("Pesquisando forma de pagamento ID: {}", id);
         
         return formaPagamentoDAO.pesquisar(id);
     }
 
-    // LISTAR TODAS
+    
     public List<FormaPagamento> pesquisarTodos() {
         logger.info("Listando todas as formas de pagamento.");
         
         return formaPagamentoDAO.pesquisarTodos();
     }
 
-    // BUSCAR OU CRIAR
+    
     public FormaPagamento buscarOuCriarForma(FormaPagamento formaPagamento) {
 
         if (formaPagamento == null) {

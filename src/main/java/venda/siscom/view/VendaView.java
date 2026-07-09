@@ -23,7 +23,6 @@ import org.slf4j.LoggerFactory;
 
 import venda.siscom.controller.ClienteController;
 import venda.siscom.controller.ProdutoController;
-import venda.siscom.controller.VendaController;
 import venda.siscom.model.Cliente;
 import venda.siscom.model.Produto;
 import venda.siscom.model.Venda;
@@ -59,8 +58,8 @@ public class VendaView extends JFrame {
 
     private final ClienteController clienteController = new ClienteController();
     private final ProdutoController produtoController = new ProdutoController();
-    private final VendaController vendaController = new VendaController();
 
+    
     private Venda vendaAtual = new Venda();
     private final List<VendaProduto> itensVenda = new ArrayList<>();
 
@@ -359,7 +358,7 @@ public class VendaView extends JFrame {
         setVisible(false);
     }
 
-    // GETTERS
+    
 
     public JTextField getTxtId() {
         return txtId;

@@ -97,8 +97,8 @@ public class FinanceiroDAO {
                 return false;
             }
 
-            // Não permite excluir contas
-            // geradas automaticamente
+            
+            
             if (financeiro.getVenda() != null
                     || financeiro.getCompra() != null) {
 
@@ -183,7 +183,7 @@ public List<Financeiro> pesquisarTodos() {
         }
     }
 
-        // CONTAS A RECEBER
+        
         public List<Financeiro> pesquisarReceber() {
 
         try (Session session = HibernateUtil

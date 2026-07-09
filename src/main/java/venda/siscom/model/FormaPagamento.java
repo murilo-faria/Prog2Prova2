@@ -26,10 +26,10 @@ public class FormaPagamento {
 
     @Column(nullable = false)
     private Integer avistaPrazo;
-    /*
-     * 0 = À Vista
-     * 1 = A Prazo
-     */
+    
+
+
+
 
     public FormaPagamento() {
     }

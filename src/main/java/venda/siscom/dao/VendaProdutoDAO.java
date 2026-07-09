@@ -11,7 +11,7 @@ import venda.siscom.util.HibernateUtil;
 
 public class VendaProdutoDAO {
 
-    // SALVAR
+    
     public boolean salvar(VendaProduto vendaProduto) {
 
         Transaction transaction = null;
@@ -37,7 +37,7 @@ public class VendaProdutoDAO {
         }
     }
 
-    // ALTERAR
+    
     public boolean alterar(VendaProduto vendaProduto) {
 
         Transaction transaction = null;
@@ -63,7 +63,7 @@ public class VendaProdutoDAO {
         }
     }
 
-    // EXCLUIR
+    
     public boolean excluir(Integer id) {
 
         Transaction transaction = null;
@@ -96,7 +96,7 @@ public class VendaProdutoDAO {
         }
     }
 
-    // PESQUISAR POR ID
+    
     public VendaProduto pesquisar(Integer id) {
 
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
@@ -111,7 +111,7 @@ public class VendaProdutoDAO {
         }
     }
 
-    // LISTAR TODOS
+    
     public List<VendaProduto> pesquisarTodos() {
 
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
@@ -129,7 +129,7 @@ public class VendaProdutoDAO {
         }
     }
 
-    // LISTAR ITENS DE UMA VENDA
+    
     public List<VendaProduto> pesquisarPorVenda(Venda venda) {
 
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {

@@ -46,10 +46,10 @@ public class Financeiro {
 
     @Column(name = "pagar_ou_receber", nullable = false)
     private Integer pagarOuReceber;
-    /*
-        0 = Pagar
-        1 = Receber
-    */
+    
+
+
+
 
     @Column(name = "valor_total", nullable = false)
     private Double valorTotal;

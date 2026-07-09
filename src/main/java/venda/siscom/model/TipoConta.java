@@ -42,7 +42,7 @@ public class TipoConta {
         this.descricao = descricao;
     }
 
-    // Compatibilidade com Controllers antigos
+    
     public String getNome() {
         return descricao;
     }

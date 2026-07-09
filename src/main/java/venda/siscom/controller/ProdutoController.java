@@ -16,7 +16,7 @@ public class ProdutoController {
 
     private final ProdutoDAO produtoDAO = new ProdutoDAO();
 
-    // SALVAR
+    
     public boolean salvar(Produto produto) {
         logger.info("Iniciando salvamento de produto.");
 
@@ -31,7 +31,7 @@ public class ProdutoController {
         return resultado;
     }
 
-    // ALTERAR
+    
     public boolean alterar(Produto produto) {
         logger.info("Iniciando alteracao de produto.");
 
@@ -46,7 +46,7 @@ public class ProdutoController {
         return resultado;
     }
 
-    // EXCLUIR
+    
     public boolean excluir(Integer id) {
         logger.info("Excluindo produto. ID: {}", id);
 
@@ -61,7 +61,7 @@ public class ProdutoController {
         return resultado;
     }
 
-    // PESQUISAR
+    
     public Produto pesquisar(Integer id) {
         logger.info("Pesquisando produto. ID: {}", id);
 
@@ -76,7 +76,7 @@ public class ProdutoController {
         return produto;
     }
 
-    // LISTAR TODOS
+    
     public List<Produto> pesquisarTodos() {
         logger.info("Listando todos os produtos.");
 
@@ -88,7 +88,7 @@ public class ProdutoController {
         return lista;
     }
 
-    // AUMENTAR ESTOQUE (COMPRAS)
+    
     public boolean atualizarEstoque(Produto produto, int quantidade) {
 
         if (produto == null) {
@@ -117,7 +117,7 @@ public class ProdutoController {
         return resultado;
     }
 
-    // BAIXAR ESTOQUE (VENDAS)
+    
     public boolean baixarEstoque(Produto produto, int quantidade) {
 
         if (produto == null) {
@@ -147,7 +147,7 @@ public class ProdutoController {
 
         produtoExistente.setValorUltimaVenda(produto.getPreco());
 
-        // Atualiza também o preço atual de venda
+        
         produtoExistente.setPreco(produto.getPreco());
 
         boolean resultado = produtoDAO.alterar(produtoExistente);
@@ -160,7 +160,7 @@ public class ProdutoController {
         return resultado;
     }
 
-    // VERIFICA ESTOQUE
+    
     public boolean verificarEstoque(Produto produto, int quantidade) {
 
         if (produto == null) {
@@ -188,7 +188,7 @@ public class ProdutoController {
         return resultado;
     }
 
-    // MANTIDO PARA COMPATIBILIDADE
+    
     public boolean verificaEstoqueExistente(Produto produto) {
 
         if (produto == null) {
@@ -215,7 +215,7 @@ public class ProdutoController {
         return resultado;
     }
 
-    // BUSCAR OU CRIAR CATEGORIA
+    
     public Categoria buscarOuCriarCategoria(String nomeCategoria) {
 
         if (nomeCategoria == null || nomeCategoria.trim().isEmpty()) {
@@ -228,7 +228,7 @@ public class ProdutoController {
         return produtoDAO.buscarOuCriarCategoria(nomeCategoria.trim());
     }
 
-    // REGISTRAR COMPRA
+    
     public boolean registrarCompraProduto(
             Produto produto,
             int quantidadeComprada,

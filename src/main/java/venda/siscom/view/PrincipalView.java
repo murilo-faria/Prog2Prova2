@@ -38,7 +38,7 @@ public class PrincipalView extends JFrame {
 
         JMenuBar barra = new JMenuBar();
 
-        /* CADASTROS */
+        
 
         JMenu menuCadastros =
                 new JMenu("Cadastros");
@@ -96,11 +96,11 @@ public class PrincipalView extends JFrame {
 
         barra.add(menuCadastros);
 
-        /*
-         * ==========================
-         * MOVIMENTOS
-         * ==========================
-         */
+        
+
+
+
+
 
         JMenu menuMovimentos =
                 new JMenu("Movimentos");
@@ -130,11 +130,11 @@ public class PrincipalView extends JFrame {
 
         barra.add(menuMovimentos);
 
-                /*
-         * ==========================
-         * RELATÓRIOS
-         * ==========================
-         */
+                
+
+
+
+
 
         JMenu menuRelatorios =
                 new JMenu("Relatórios");
@@ -167,11 +167,11 @@ public class PrincipalView extends JFrame {
 
         barra.add(menuRelatorios);
 
-        /*
-         * ==========================
-         * SISTEMA
-         * ==========================
-         */
+        
+
+
+
+
 
         JMenu menuSistema =
                 new JMenu("Sistema");

@@ -43,7 +43,7 @@ public class VendaProduto {
         this.valorUnitario = valorUnitario;
     }
 
-    // Construtor completo (se precisar passar o ID)
+    
     public VendaProduto(int id, Venda venda, Produto produto, int quantidade, Double valorUnitario) {
         this.id = id;
         this.venda = venda;
@@ -52,7 +52,7 @@ public class VendaProduto {
         this.valorUnitario = valorUnitario;
     }
 
-    // GETTERS E SETTERS
+    
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 

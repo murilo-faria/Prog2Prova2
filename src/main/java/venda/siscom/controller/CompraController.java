@@ -24,16 +24,16 @@ public class CompraController {
     private final FinanceiroDAO financeiroDAO = new FinanceiroDAO();
     private final ProdutoController produtoController = new ProdutoController();
 
-    /**
-     * Finaliza uma compra.
-     *
-     * Salva:
-     * Compra
-     * Itens
-     * Atualiza Estoque
-     * Gera Financeiro
-     * Gera Parcelas
-     */
+    
+
+
+
+
+
+
+
+
+
     public boolean finalizarCompra(
             Compra compra,
             List<CompraProduto> itens,
@@ -94,11 +94,11 @@ public class CompraController {
 
         logger.info("Atualizando estoque dos produtos.");
 
-        /*
-         * Atualiza estoque
-         * Atualiza preço médio
-         * Atualiza última compra
-         */
+        
+
+
+
+
         for (CompraProduto item : itens) {
 
             produtoController.registrarCompraProduto(
@@ -115,9 +115,9 @@ public class CompraController {
 
         logger.info("Gerando lançamento financeiro.");
 
-        /*
-         * Gera Financeiro
-         */
+        
+
+
 
         Financeiro financeiro = new Financeiro();
 
@@ -129,7 +129,7 @@ public class CompraController {
 
         financeiro.setDataLancamento(dataPrimeiraParcela);
 
-        // 0 = PAGAR
+        
         financeiro.setPagarOuReceber(0);
 
         financeiro.setValorTotal(compra.getValorTotal());
@@ -161,9 +161,9 @@ public class CompraController {
         return true;
     }
 
-    /**
-     * Gera automaticamente as parcelas do financeiro.
-     */
+    
+
+
     private void gerarParcelas(
             Financeiro financeiro,
             LocalDate dataPrimeiraParcela,
@@ -186,7 +186,7 @@ public class CompraController {
 
         double valorParcela = valorTotal / quantidadeParcelas;
 
-        // Arredonda para duas casas
+        
         valorParcela = Math.round(valorParcela * 100.0) / 100.0;
 
         double somaParcelas = 0.0;
@@ -209,7 +209,7 @@ public class CompraController {
 
             parcela.setValorFinal(valorParcela);
 
-            // 0 = PENDENTE
+            
             parcela.setStatus(0);
 
             somaParcelas += valorParcela;
@@ -219,7 +219,7 @@ public class CompraController {
             logger.info("Parcela {} gerada. Valor: {}", i, valorParcela);
         }
 
-        // Corrige diferença de arredondamento na última parcela
+        
         double diferenca = Math.round((valorTotal - somaParcelas) * 100.0) / 100.0;
 
         if (Math.abs(diferenca) > 0.0) {

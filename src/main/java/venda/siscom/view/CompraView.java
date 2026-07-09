@@ -108,7 +108,7 @@ public class CompraView extends JFrame {
 
         carregarTiposConta();
 
-        // Seleciona automaticamente "Compra"
+        
         for (int i = 0; i < cbTipoConta.getItemCount(); i++) {
 
         TipoConta tipo = cbTipoConta.getItemAt(i);
@@ -120,7 +120,7 @@ public class CompraView extends JFrame {
                 }
         }
 
-        // Não permite alterar
+        
         cbTipoConta.setEnabled(false);                
 
         configurarEventos();

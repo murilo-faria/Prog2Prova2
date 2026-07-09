@@ -25,9 +25,9 @@ public class VendaController {
     private final FinanceiroDAO financeiroDAO = new FinanceiroDAO();
     private final ProdutoController produtoController = new ProdutoController();
 
-    /**
-     * Finaliza a venda.
-     */
+    
+
+
     public boolean finalizarVenda(
             Venda venda,
             List<VendaProduto> itens,
@@ -41,7 +41,7 @@ public class VendaController {
 
         LocalDate dataPrimeiraParcela = LocalDate.now();
 
-        // Limite de vendas por CPF
+        
 
         if (vendaDAO.contarVendasPorCpfNoMes(
                 venda.getCliente().getCpf()) >= 3) {
@@ -52,7 +52,7 @@ public class VendaController {
             return false;
         }
 
-        // Verifica estoque
+        
 
         for (VendaProduto item : itens) {
 
@@ -118,7 +118,7 @@ public class VendaController {
 
         }
 
-        // Atualiza estoque
+        
 
         for (VendaProduto item : itens) {
 
@@ -128,7 +128,7 @@ public class VendaController {
 
         }
 
-        // Gera Financeiro
+        
 
         Financeiro financeiro = new Financeiro();
 
@@ -166,9 +166,9 @@ public class VendaController {
         return true;
     }
 
-    /**
-     * Gera automaticamente as parcelas do financeiro.
-     */
+    
+
+
     private void gerarParcelas(
             Financeiro financeiro,
             LocalDate dataPrimeiraParcela,

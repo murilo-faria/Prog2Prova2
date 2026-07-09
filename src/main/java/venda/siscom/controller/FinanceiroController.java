@@ -17,7 +17,7 @@ public class FinanceiroController {
 
     private final FinanceiroDAO financeiroDAO = new FinanceiroDAO();
 
-    // SALVAR
+    
     public boolean salvar(Financeiro financeiro) {
 
         logger.info("Iniciando salvamento do lançamento financeiro.");
@@ -33,7 +33,7 @@ public class FinanceiroController {
         return resultado;
     }
 
-    // ALTERAR
+    
     public boolean alterar(Financeiro financeiro) {
 
         logger.info("Iniciando alteração do lançamento financeiro.");
@@ -49,7 +49,7 @@ public class FinanceiroController {
         return resultado;
     }
 
-    // EXCLUIR
+    
     public boolean excluir(Integer id) {
 
         logger.info("Excluindo lançamento financeiro. ID: {}", id);
@@ -65,7 +65,7 @@ public class FinanceiroController {
         return resultado;
     }
 
-    // PESQUISAR
+    
     public Financeiro pesquisar(Integer id) {
 
         logger.info("Pesquisando lançamento financeiro. ID: {}", id);
@@ -81,7 +81,7 @@ public class FinanceiroController {
         return financeiro;
     }
 
-    // LISTAR TODOS
+    
     public List<Financeiro> pesquisarTodos() {
 
         logger.info("Listando todos os lançamentos financeiros.");
@@ -117,7 +117,7 @@ public class FinanceiroController {
         return lista;
     }
 
-    // SALVAR LANÇAMENTO MANUAL
+    
     public boolean salvarManual(Financeiro financeiro) {
 
         logger.info("Iniciando salvamento manual do lançamento financeiro.");
@@ -173,7 +173,7 @@ public class FinanceiroController {
                 logger.info("Parcela {} gerada.", i);
             }
 
-            // Corrige diferença de arredondamento
+            
             double diferenca =
                     Math.round((financeiro.getValorTotal() - somaParcelas) * 100.0)
                     / 100.0;

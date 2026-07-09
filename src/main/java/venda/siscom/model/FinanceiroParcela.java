@@ -48,10 +48,10 @@ public class FinanceiroParcela {
     @Column(nullable = false)
     private Integer status;
 
-    /*
-     * 0 = Pendente
-     * 1 = Paga
-     */
+    
+
+
+
 
     public FinanceiroParcela() {
     }

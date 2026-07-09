@@ -72,7 +72,7 @@ public class PagamentoVendaView extends JDialog {
         inicializarComponentes();
         carregarCombos();
 
-        // Seleciona automaticamente o Tipo de Conta "Venda"
+        
     for (int i = 0; i < cbTipoConta.getItemCount(); i++) {  
 
          TipoConta tipo = cbTipoConta.getItemAt(i);
@@ -84,7 +84,7 @@ public class PagamentoVendaView extends JDialog {
             }
         }
 
-        // Não permite alterar
+        
         cbTipoConta.setEnabled(false);
 
         carregarValores();

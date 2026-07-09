@@ -15,7 +15,7 @@ public class TipoContaController {
 
     private final TipoContaDAO tipoContaDAO = new TipoContaDAO();
 
-    // SALVAR
+    
     public boolean salvar(TipoConta tipoConta) {
         logger.info("Executando salvar tipo de conta.");
 
@@ -26,7 +26,7 @@ public class TipoContaController {
         return resultado;
     }
 
-    // ALTERAR
+    
     public boolean alterar(TipoConta tipoConta) {
         logger.info("Executando alterar tipo de conta.");
 
@@ -37,7 +37,7 @@ public class TipoContaController {
         return resultado;
     }
 
-    // EXCLUIR
+    
     public boolean excluir(Integer id) {
         logger.info("Executando excluir tipo de conta. ID: {}", id);
 
@@ -50,7 +50,7 @@ public class TipoContaController {
         return resultado;
     }
 
-    // PESQUISAR POR ID
+    
     public TipoConta pesquisar(Integer id) {
         logger.info("Executando pesquisar tipo de conta. ID: {}", id);
 
@@ -63,7 +63,7 @@ public class TipoContaController {
         return tipoConta;
     }
 
-    // LISTAR TODOS
+    
     public List<TipoConta> pesquisarTodos() {
         logger.info("Executando pesquisar todos os tipos de conta.");
 
@@ -75,7 +75,7 @@ public class TipoContaController {
         return lista;
     }
 
-    // BUSCAR OU CRIAR
+    
     public TipoConta buscarOuCriarConta(String nomeConta) {
 
         logger.info("Executando buscar ou criar tipo de conta: {}", nomeConta);

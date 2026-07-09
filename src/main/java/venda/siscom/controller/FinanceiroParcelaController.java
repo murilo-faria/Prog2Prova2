@@ -16,42 +16,42 @@ public class FinanceiroParcelaController {
 
     private final FinanceiroParcelaDAO financeiroParcelaDAO = new FinanceiroParcelaDAO();
 
-    // SALVAR
+    
     public boolean salvar(FinanceiroParcela parcela) {
         logger.info("Iniciando salvamento da parcela.");
         
         return financeiroParcelaDAO.salvar(parcela);
     }
 
-    // ALTERAR
+    
     public boolean alterar(FinanceiroParcela parcela) {
         logger.info("Iniciando alteração da parcela.");
         
         return financeiroParcelaDAO.alterar(parcela);
     }
 
-    // EXCLUIR
+    
     public boolean excluir(Integer id) {
         logger.info("Excluindo parcela ID: {}", id);
         
         return financeiroParcelaDAO.excluir(id);
     }
 
-    // PESQUISAR
+    
     public FinanceiroParcela pesquisar(Integer id) {
         logger.info("Pesquisando parcela ID: {}", id);
         
         return financeiroParcelaDAO.pesquisar(id);
     }
 
-    // LISTAR TODAS
+    
     public List<FinanceiroParcela> pesquisarTodos() {
         logger.info("Listando todas as parcelas.");
         
         return financeiroParcelaDAO.pesquisarTodos();
     }
 
-    // DAR BAIXA NA PARCELA
+    
     public boolean baixarParcela(FinanceiroParcela parcela,
                                  Double acrescimo,
                                  Double desconto) {
@@ -80,7 +80,7 @@ public class FinanceiroParcelaController {
                         + acrescimo
                         - desconto);
 
-        parcela.setStatus(1); // 1 = PAGA
+        parcela.setStatus(1); 
 
         parcela.setDataPagamento(LocalDate.now());
 
@@ -89,7 +89,7 @@ public class FinanceiroParcelaController {
         return financeiroParcelaDAO.alterar(parcela);
     }
 
-    // LISTAR PARCELAS DE UM FINANCEIRO
+    
     public List<FinanceiroParcela> pesquisarPorFinanceiro(Financeiro financeiro) {
         logger.info("Listando parcelas para financeiro ID: {}", financeiro.getId());
 
