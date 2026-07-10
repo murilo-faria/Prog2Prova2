@@ -1,0 +1,700 @@
+09/07/2026 08:18:21 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 08:18:21 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 08:18:22 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 08:18:22 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 08:18:23 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 08:18:23 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 08:18:25 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 08:18:25 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@56f83695] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 08:18:26 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 08:18:30 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 08:18:30 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 08:18:30 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 08:18:30 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+09/07/2026 08:18:30 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 31
+09/07/2026 08:18:34 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 08:18:34 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 08:18:37 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 08:18:37 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 08:18:37 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 08:18:37 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 12:56:28 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 12:56:28 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 12:56:29 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 12:56:29 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 12:56:30 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 12:56:30 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 12:56:32 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 12:56:32 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@21116054] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 12:56:33 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 13:05:53 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 13:05:53 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 13:05:54 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 13:05:54 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 13:05:54 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 13:05:54 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 13:05:56 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 13:05:56 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@457eb937] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 13:05:57 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 13:09:26 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 13:09:26 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 13:09:26 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 13:09:26 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 13:09:28 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 1. Estoque: 50, solicitado: 1, disponivel: true
+09/07/2026 13:09:30 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 13:09:31 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 13:09:31 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 13:09:32 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+09/07/2026 13:09:32 WARN  [v.siscom.controller.VendaController] - Cliente atingiu o limite de vendas no mes. CPF: teste
+09/07/2026 13:12:10 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 13:12:10 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 13:12:10 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 13:12:10 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 13:12:18 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 10, solicitado: 1, disponivel: true
+09/07/2026 13:12:19 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 13:12:19 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 13:12:19 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 13:12:20 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+09/07/2026 13:12:20 WARN  [v.siscom.controller.VendaController] - Cliente atingiu o limite de vendas no mes. CPF: teste
+09/07/2026 13:25:32 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 13:25:32 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 13:25:33 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 13:25:33 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 13:25:33 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 13:25:33 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 13:25:35 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 13:25:35 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@464a2087] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 13:25:36 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: false
+09/07/2026 13:25:39 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 13:25:39 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 13:25:45 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 13:25:45 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 13:25:45 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 13:25:45 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 13:25:47 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 1. Estoque: 50, solicitado: 1, disponivel: true
+09/07/2026 13:25:57 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 13:25:57 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 13:25:57 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 13:25:57 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+09/07/2026 13:25:57 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 1
+09/07/2026 13:25:57 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 1
+09/07/2026 13:25:58 INFO  [v.s.controller.ProdutoController] - Baixa de estoque do produto ID 1 concluida: true
+09/07/2026 13:25:58 INFO  [v.siscom.controller.VendaController] - Executando gerar parcelas da venda. Parcelas: 1, prazo: 30, valor: 8.0
+09/07/2026 13:25:58 INFO  [v.siscom.controller.VendaController] - Parcela da venda gerada. Numero: 1, vencimento: 2026-07-09, valor: 8.0
+09/07/2026 13:25:58 INFO  [v.siscom.controller.VendaController] - Geracao de parcelas da venda concluida. Total parcelas: 1
+09/07/2026 13:25:58 INFO  [v.siscom.controller.VendaController] - Venda finalizada com sucesso. ID: 11, valor: 8.0
+09/07/2026 13:42:04 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 13:42:04 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 13:42:04 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 13:42:04 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 13:42:07 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 13:42:07 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 13:42:07 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 13:42:07 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 13:42:10 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 5. Estoque: 1, solicitado: 1, disponivel: false
+09/07/2026 13:42:15 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 5. Estoque: 1, solicitado: 1, disponivel: false
+09/07/2026 13:44:45 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 13:44:45 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 13:44:46 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 13:44:46 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 13:44:46 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 13:44:46 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 13:44:48 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 13:44:48 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6c5598fe] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 13:44:49 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 13:44:55 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 13:44:55 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 13:44:58 INFO  [v.s.controller.ClienteController] - Pesquisando cliente pelo ID: 5
+09/07/2026 13:44:58 INFO  [v.s.controller.ClienteController] - Cliente encontrado.
+09/07/2026 13:45:01 INFO  [v.s.controller.ClienteController] - Iniciando alteração do cliente.
+09/07/2026 13:45:01 INFO  [v.s.controller.ClienteController] - Cliente alterado com sucesso.
+09/07/2026 13:45:07 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 13:45:07 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 13:45:07 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 13:45:07 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 17:29:31 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 17:29:31 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 17:29:31 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 17:29:31 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 17:29:31 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 17:30:37 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 17:30:37 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 17:30:37 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 17:30:37 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 17:32:05 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 17:32:05 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 17:32:05 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 17:32:05 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 17:32:05 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 17:32:11 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 17:32:11 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 17:32:11 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 17:32:11 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 17:32:14 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 17:32:14 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 17:32:14 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 17:32:14 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+09/07/2026 17:32:14 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 32
+09/07/2026 17:34:03 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 17:34:03 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 17:34:03 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 17:34:03 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 17:34:04 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 17:34:04 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 17:34:06 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 17:34:06 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6cbdde] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 17:34:07 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 17:34:38 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 17:34:38 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 17:34:38 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 17:34:38 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 17:34:38 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 17:34:38 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 17:37:54 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 17:37:55 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 17:37:55 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 17:37:55 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 17:37:55 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 17:37:55 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 17:37:57 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 17:37:57 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4b50dbb8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 17:37:58 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 17:38:03 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 17:38:03 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 17:38:03 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 17:38:03 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 17:38:03 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 17:38:03 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 17:38:08 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 5. Estoque: 1, solicitado: 1, disponivel: false
+09/07/2026 17:38:11 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 10, solicitado: 1, disponivel: true
+09/07/2026 17:38:16 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 17:38:16 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 5
+09/07/2026 17:38:23 INFO  [v.s.controller.ClienteController] - Iniciando salvamento do cliente.
+09/07/2026 17:38:23 INFO  [v.s.controller.ClienteController] - Cliente salvo com sucesso.
+09/07/2026 17:38:24 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 17:38:24 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 6
+09/07/2026 17:38:24 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 17:38:24 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 6
+09/07/2026 17:38:27 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 17:38:27 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 6
+09/07/2026 17:38:27 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 17:38:27 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 17:38:27 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 17:38:27 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 17:38:33 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 10, solicitado: 1, disponivel: true
+09/07/2026 17:38:35 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 17:38:35 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 17:38:35 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 17:38:47 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+09/07/2026 17:38:47 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 17:38:47 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 17:38:47 INFO  [v.s.controller.ProdutoController] - Baixa de estoque do produto ID 4 concluida: true
+09/07/2026 17:38:47 INFO  [v.siscom.controller.VendaController] - Executando gerar parcelas da venda. Parcelas: 2, prazo: 30, valor: 240.0
+09/07/2026 17:38:47 INFO  [v.siscom.controller.VendaController] - Parcela da venda gerada. Numero: 1, vencimento: 2026-07-09, valor: 120.0
+09/07/2026 17:38:47 INFO  [v.siscom.controller.VendaController] - Parcela da venda gerada. Numero: 2, vencimento: 2026-08-08, valor: 120.0
+09/07/2026 17:38:47 INFO  [v.siscom.controller.VendaController] - Geracao de parcelas da venda concluida. Total parcelas: 2
+09/07/2026 17:38:47 INFO  [v.siscom.controller.VendaController] - Venda finalizada com sucesso. ID: 12, valor: 240.0
+09/07/2026 18:14:28 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 18:14:28 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 18:14:29 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 18:14:29 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 18:14:29 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 18:14:29 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 18:14:31 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 18:14:31 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4da2b6a1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 18:14:32 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 18:14:37 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 18:14:37 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 18:14:37 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 18:14:37 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+09/07/2026 18:14:37 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 33
+09/07/2026 18:14:47 INFO  [v.s.c.FinanceiroParcelaController] - Iniciando baixa da parcela.
+09/07/2026 18:14:47 INFO  [v.s.c.FinanceiroParcelaController] - Baixa realizada com sucesso para parcela ID: 16
+09/07/2026 18:15:40 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 18:15:40 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 18:15:40 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 18:15:40 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+09/07/2026 18:15:40 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 33
+09/07/2026 18:16:24 INFO  [v.s.c.FinanceiroParcelaController] - Iniciando baixa da parcela.
+09/07/2026 18:16:24 INFO  [v.s.c.FinanceiroParcelaController] - Baixa realizada com sucesso para parcela ID: 1
+09/07/2026 18:17:10 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 18:17:10 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 18:17:10 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 18:17:10 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 18:17:12 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 2
+09/07/2026 18:17:12 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 2
+09/07/2026 18:17:13 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 3
+09/07/2026 18:17:13 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 3
+09/07/2026 18:17:21 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 18:17:21 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 18:17:21 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 18:17:21 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+09/07/2026 18:17:23 INFO  [v.s.c.FornecedorProdutoController] - Pesquisando relação Fornecedor-Produto ID: 2
+09/07/2026 18:17:23 INFO  [v.s.c.FornecedorProdutoController] - Pesquisando relação Fornecedor-Produto ID: 2
+09/07/2026 18:17:24 INFO  [v.s.c.FornecedorProdutoController] - Excluindo relação Fornecedor-Produto ID: 2
+09/07/2026 18:17:24 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+09/07/2026 18:17:25 INFO  [v.s.c.FornecedorProdutoController] - Pesquisando relação Fornecedor-Produto ID: 4
+09/07/2026 18:17:25 INFO  [v.s.c.FornecedorProdutoController] - Pesquisando relação Fornecedor-Produto ID: 4
+09/07/2026 18:17:26 INFO  [v.s.c.FornecedorProdutoController] - Excluindo relação Fornecedor-Produto ID: 4
+09/07/2026 18:17:26 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+09/07/2026 18:17:28 INFO  [v.s.c.FornecedorProdutoController] - Pesquisando relação Fornecedor-Produto ID: 5
+09/07/2026 18:17:28 INFO  [v.s.c.FornecedorProdutoController] - Pesquisando relação Fornecedor-Produto ID: 5
+09/07/2026 18:17:29 INFO  [v.s.c.FornecedorProdutoController] - Excluindo relação Fornecedor-Produto ID: 5
+09/07/2026 18:17:29 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+09/07/2026 18:17:42 INFO  [v.s.c.FornecedorProdutoController] - Iniciando salvamento da relação Fornecedor-Produto.
+09/07/2026 18:17:43 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+09/07/2026 18:17:52 INFO  [v.s.c.FornecedorProdutoController] - Iniciando salvamento da relação Fornecedor-Produto.
+09/07/2026 18:17:53 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+09/07/2026 18:18:40 INFO  [v.s.c.FornecedorProdutoController] - Pesquisando relação Fornecedor-Produto ID: 6
+09/07/2026 18:18:41 INFO  [v.s.c.FornecedorProdutoController] - Pesquisando relação Fornecedor-Produto ID: 6
+09/07/2026 18:18:41 INFO  [v.s.c.FornecedorProdutoController] - Pesquisando relação Fornecedor-Produto ID: 6
+09/07/2026 18:18:41 INFO  [v.s.c.FornecedorProdutoController] - Iniciando alteração da relação Fornecedor-Produto.
+09/07/2026 18:18:42 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+09/07/2026 18:19:07 INFO  [v.s.c.FornecedorProdutoController] - Iniciando salvamento da relação Fornecedor-Produto.
+09/07/2026 18:19:09 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+09/07/2026 18:19:13 INFO  [v.s.c.FornecedorProdutoController] - Iniciando salvamento da relação Fornecedor-Produto.
+09/07/2026 18:19:14 INFO  [v.s.c.FornecedorProdutoController] - Listando todas as relações Fornecedor-Produto.
+09/07/2026 18:19:19 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 18:19:19 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 18:19:19 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 18:19:19 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 18:19:19 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 18:19:21 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 4
+09/07/2026 18:19:24 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 18:19:27 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 1
+09/07/2026 18:19:41 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 18:24:03 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 18:24:03 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 18:24:03 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 18:24:03 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+09/07/2026 18:24:03 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 33
+09/07/2026 18:29:11 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 18:29:11 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 18:29:11 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 18:29:11 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 18:29:13 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 1
+09/07/2026 18:29:13 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 1
+09/07/2026 18:29:15 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 2
+09/07/2026 18:29:15 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 2
+09/07/2026 18:37:47 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 18:37:47 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 18:47:33 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 18:47:33 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 18:47:37 INFO  [v.s.controller.TipoContaController] - Executando pesquisar tipo de conta. ID: 4
+09/07/2026 18:47:37 INFO  [v.s.controller.TipoContaController] - Resultado pesquisar tipo de conta. ID: 4, encontrado: true
+09/07/2026 18:47:37 INFO  [v.s.controller.TipoContaController] - Executando pesquisar tipo de conta. ID: 4
+09/07/2026 18:47:37 INFO  [v.s.controller.TipoContaController] - Resultado pesquisar tipo de conta. ID: 4, encontrado: true
+09/07/2026 18:47:44 INFO  [v.s.controller.TipoContaController] - Executando pesquisar tipo de conta. ID: 3
+09/07/2026 18:47:44 INFO  [v.s.controller.TipoContaController] - Resultado pesquisar tipo de conta. ID: 3, encontrado: true
+09/07/2026 18:47:44 INFO  [v.s.controller.TipoContaController] - Executando pesquisar tipo de conta. ID: 3
+09/07/2026 18:47:44 INFO  [v.s.controller.TipoContaController] - Resultado pesquisar tipo de conta. ID: 3, encontrado: true
+09/07/2026 18:47:45 INFO  [v.s.controller.TipoContaController] - Executando pesquisar tipo de conta. ID: 1
+09/07/2026 18:47:45 INFO  [v.s.controller.TipoContaController] - Resultado pesquisar tipo de conta. ID: 1, encontrado: true
+09/07/2026 18:47:45 INFO  [v.s.controller.TipoContaController] - Executando pesquisar tipo de conta. ID: 1
+09/07/2026 18:47:45 INFO  [v.s.controller.TipoContaController] - Resultado pesquisar tipo de conta. ID: 1, encontrado: true
+09/07/2026 19:06:08 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 19:06:09 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 19:06:09 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 19:06:09 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 19:06:10 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 19:06:10 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 19:06:12 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 19:06:12 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@41a1683e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 19:06:13 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 19:06:16 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:06:16 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 6
+09/07/2026 19:06:16 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 19:06:16 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 19:06:16 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 19:06:16 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 19:06:18 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 19:06:18 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 19:06:18 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 19:06:18 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 19:06:18 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 19:08:00 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 19:08:00 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 19:08:00 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 19:08:00 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 19:08:01 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 19:08:01 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 19:08:02 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 19:08:02 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@682295ec] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 19:08:03 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 19:08:07 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 19:08:20 INFO  [v.s.controller.FornecedorController] - Iniciando salvamento de fornecedor.
+09/07/2026 19:08:22 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 19:08:22 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 19:08:23 INFO  [v.s.controller.FornecedorController] - Pesquisando fornecedor ID: 5
+09/07/2026 19:08:31 INFO  [v.s.controller.FornecedorController] - Excluindo fornecedor ID: 5
+09/07/2026 19:08:33 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 19:08:33 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 19:08:40 INFO  [v.s.controller.FornecedorController] - Iniciando salvamento de fornecedor.
+09/07/2026 19:08:41 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 19:08:41 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 19:08:46 INFO  [v.s.controller.FornecedorController] - Pesquisando fornecedor ID: 6
+09/07/2026 19:08:59 INFO  [v.s.controller.FornecedorController] - Excluindo fornecedor ID: 6
+09/07/2026 19:09:00 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 19:09:01 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 19:11:06 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 19:11:06 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 19:11:07 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 19:11:07 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 19:11:07 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 19:11:07 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 19:11:09 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 19:11:09 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2320cffa] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 19:11:10 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 19:11:14 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 19:12:39 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 19:12:39 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 19:12:40 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 19:12:40 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 19:12:40 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 19:12:40 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 19:12:42 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 19:12:42 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@465b36b8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 19:12:43 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 19:12:46 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:12:46 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 6
+09/07/2026 19:12:50 INFO  [v.s.controller.ClienteController] - Iniciando salvamento do cliente.
+09/07/2026 19:12:50 INFO  [v.s.controller.ClienteController] - Cliente salvo com sucesso.
+09/07/2026 19:12:52 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:12:52 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 7
+09/07/2026 19:12:52 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:12:52 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 7
+09/07/2026 19:12:53 INFO  [v.s.controller.ClienteController] - Pesquisando cliente pelo ID: 9
+09/07/2026 19:12:53 INFO  [v.s.controller.ClienteController] - Cliente encontrado.
+09/07/2026 19:12:56 INFO  [v.s.controller.ClienteController] - Excluindo cliente. ID: 9
+09/07/2026 19:12:56 INFO  [v.s.controller.ClienteController] - Cliente excluído com sucesso.
+09/07/2026 19:12:57 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:12:57 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 6
+09/07/2026 19:12:57 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:12:57 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 6
+09/07/2026 19:14:29 INFO  [v.s.controller.ClienteController] - Pesquisando cliente pelo ID: 7
+09/07/2026 19:14:29 INFO  [v.s.controller.ClienteController] - Cliente encontrado.
+09/07/2026 19:14:35 INFO  [v.s.controller.ClienteController] - Pesquisando cliente pelo ID: 1
+09/07/2026 19:14:35 INFO  [v.s.controller.ClienteController] - Cliente encontrado.
+09/07/2026 19:18:13 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 19:18:13 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 19:18:14 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 19:18:14 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 19:18:14 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 19:18:14 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 19:18:16 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 19:18:16 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@23bc52cd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 19:18:17 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 19:18:21 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:18:21 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 6
+09/07/2026 19:20:44 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 19:20:44 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 19:20:45 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 19:20:45 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 19:20:45 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 19:20:45 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 19:20:48 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 19:20:48 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@20985015] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 19:20:49 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 19:20:52 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:20:52 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 6
+09/07/2026 19:21:01 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 19:21:01 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 19:21:01 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 19:21:01 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 19:21:01 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 19:21:05 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:21:05 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 6
+09/07/2026 19:21:05 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 19:21:05 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 19:21:05 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 19:21:05 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 19:21:10 INFO  [v.s.controller.ProdutoController] - Verificacao de estoque do produto ID 4. Estoque: 9, solicitado: 1, disponivel: true
+09/07/2026 19:21:11 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 19:21:11 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 19:21:11 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 19:21:13 INFO  [v.siscom.controller.VendaController] - Executando finalizar venda.
+09/07/2026 19:21:13 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 4
+09/07/2026 19:21:13 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 4
+09/07/2026 19:21:13 INFO  [v.s.controller.ProdutoController] - Baixa de estoque do produto ID 4 concluida: true
+09/07/2026 19:21:13 INFO  [v.siscom.controller.VendaController] - Executando gerar parcelas da venda. Parcelas: 1, prazo: 30, valor: 260.0
+09/07/2026 19:21:13 INFO  [v.siscom.controller.VendaController] - Parcela da venda gerada. Numero: 1, vencimento: 2026-07-09, valor: 260.0
+09/07/2026 19:21:13 INFO  [v.siscom.controller.VendaController] - Geracao de parcelas da venda concluida. Total parcelas: 1
+09/07/2026 19:21:13 INFO  [v.siscom.controller.VendaController] - Venda finalizada com sucesso. ID: 13, valor: 260.0
+09/07/2026 19:21:18 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:21:18 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 6
+09/07/2026 19:21:32 INFO  [v.s.controller.ClienteController] - Iniciando salvamento do cliente.
+09/07/2026 19:21:32 INFO  [v.s.controller.ClienteController] - Cliente salvo com sucesso.
+09/07/2026 19:21:35 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:21:35 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 7
+09/07/2026 19:21:35 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:21:35 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 7
+09/07/2026 19:23:10 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 19:23:10 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 19:23:11 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 19:23:11 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 19:23:11 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 19:23:11 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 19:23:13 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 19:23:13 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@25c8b66a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 19:23:14 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 19:23:19 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:23:19 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 7
+09/07/2026 19:23:21 INFO  [v.s.controller.ClienteController] - Pesquisando cliente pelo ID: 10
+09/07/2026 19:23:21 INFO  [v.s.controller.ClienteController] - Cliente encontrado.
+09/07/2026 19:23:21 INFO  [v.s.controller.ClienteController] - Pesquisando cliente pelo ID: 10
+09/07/2026 19:23:21 INFO  [v.s.controller.ClienteController] - Cliente encontrado.
+09/07/2026 19:23:35 INFO  [v.s.controller.ClienteController] - Iniciando alteração do cliente.
+09/07/2026 19:23:35 INFO  [v.s.controller.ClienteController] - Cliente alterado com sucesso.
+09/07/2026 19:23:36 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:23:36 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 7
+09/07/2026 19:23:36 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 19:23:36 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 7
+09/07/2026 19:23:39 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 19:23:39 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 19:23:39 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 19:23:39 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 19:23:44 INFO  [v.s.controller.ProdutoController] - Iniciando salvamento de produto.
+09/07/2026 19:23:44 INFO  [v.s.controller.ProdutoController] - Produto salvo com sucesso.
+09/07/2026 19:23:46 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 19:23:46 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 6
+09/07/2026 19:25:58 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 19:25:58 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 19:25:59 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 19:25:59 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 19:25:59 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 19:25:59 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 19:26:01 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 19:26:01 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a59e430] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 19:26:02 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 19:26:06 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 19:26:06 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 19:26:06 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 19:26:06 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 6
+09/07/2026 19:26:08 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 6
+09/07/2026 19:26:08 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 6
+09/07/2026 19:26:10 INFO  [v.s.controller.ProdutoController] - Excluindo produto. ID: 6
+09/07/2026 19:26:10 INFO  [v.s.controller.ProdutoController] - Produto excluido com sucesso. ID: 6
+09/07/2026 19:26:11 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 19:26:11 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 19:26:16 INFO  [v.s.controller.ProdutoController] - Iniciando salvamento de produto.
+09/07/2026 19:26:16 INFO  [v.s.controller.ProdutoController] - Produto salvo com sucesso.
+09/07/2026 19:26:18 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 19:26:18 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 6
+09/07/2026 19:28:17 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 19:28:17 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 19:28:17 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 19:28:17 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 19:28:18 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 19:28:18 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 19:28:20 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 19:28:20 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@445bfe57] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 19:28:20 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 19:28:25 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 19:28:25 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 19:28:25 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 19:28:25 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 6
+09/07/2026 19:28:27 INFO  [v.s.controller.ProdutoController] - Pesquisando produto. ID: 7
+09/07/2026 19:28:27 INFO  [v.s.controller.ProdutoController] - Produto encontrado. ID: 7
+09/07/2026 19:28:28 INFO  [v.s.controller.ProdutoController] - Excluindo produto. ID: 7
+09/07/2026 19:28:28 INFO  [v.s.controller.ProdutoController] - Produto excluido com sucesso. ID: 7
+09/07/2026 19:28:29 INFO  [v.s.controller.ProdutoController] - Listando todos os produtos.
+09/07/2026 19:28:29 INFO  [v.s.controller.ProdutoController] - Total de produtos encontrados: 5
+09/07/2026 19:29:17 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 19:29:17 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 19:29:17 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 19:29:17 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 19:29:18 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 19:29:18 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 19:29:20 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 19:29:20 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4ae26438] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 19:29:20 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 19:29:26 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 19:29:26 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 19:29:35 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 19:29:44 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 19:29:44 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 19:29:45 INFO  [v.s.controller.TipoContaController] - Executando salvar tipo de conta.
+09/07/2026 19:29:45 INFO  [v.s.controller.TipoContaController] - Resultado salvar tipo de conta: true
+09/07/2026 19:29:47 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 19:29:47 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 5
+09/07/2026 19:29:48 INFO  [v.s.controller.TipoContaController] - Executando pesquisar tipo de conta. ID: 5
+09/07/2026 19:29:48 INFO  [v.s.controller.TipoContaController] - Resultado pesquisar tipo de conta. ID: 5, encontrado: true
+09/07/2026 19:29:48 INFO  [v.s.controller.TipoContaController] - Executando pesquisar tipo de conta. ID: 5
+09/07/2026 19:29:48 INFO  [v.s.controller.TipoContaController] - Resultado pesquisar tipo de conta. ID: 5, encontrado: true
+09/07/2026 19:29:50 INFO  [v.s.controller.TipoContaController] - Executando excluir tipo de conta. ID: 5
+09/07/2026 19:29:50 INFO  [v.s.controller.TipoContaController] - Resultado excluir tipo de conta. ID: 5, resultado: true
+09/07/2026 19:29:50 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 19:29:50 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 19:30:32 INFO  [v.s.controller.UsuarioController] - Executando efetuar login. Usuario: admin
+09/07/2026 19:30:32 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.18.Final
+09/07/2026 19:30:33 INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+09/07/2026 19:30:33 WARN  [o.hibernate.orm.connections.pooling] - HHH10001002: Using built-in connection pool (not intended for production use)
+09/07/2026 19:30:33 WARN  [org.hibernate.orm.deprecation] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09/07/2026 19:30:33 INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/SisCom_comercial_prog2_Murilo]
+	Database driver: org.postgresql.Driver
+	Database version: 18.0
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09/07/2026 19:30:35 INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09/07/2026 19:30:35 INFO  [o.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@445bfe57] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09/07/2026 19:30:36 INFO  [v.s.controller.UsuarioController] - Resultado efetuar login. Usuario: admin, autenticado: true
+09/07/2026 19:30:39 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 19:30:39 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 19:30:54 INFO  [v.s.controller.TipoContaController] - Executando pesquisar tipo de conta. ID: 1
+09/07/2026 19:30:54 INFO  [v.s.controller.TipoContaController] - Resultado pesquisar tipo de conta. ID: 1, encontrado: true
+09/07/2026 19:30:54 INFO  [v.s.controller.TipoContaController] - Executando pesquisar tipo de conta. ID: 1
+09/07/2026 19:30:54 INFO  [v.s.controller.TipoContaController] - Resultado pesquisar tipo de conta. ID: 1, encontrado: true
+09/07/2026 19:31:01 INFO  [v.s.controller.TipoContaController] - Executando pesquisar tipo de conta. ID: 3
+09/07/2026 19:31:01 INFO  [v.s.controller.TipoContaController] - Resultado pesquisar tipo de conta. ID: 3, encontrado: true
+09/07/2026 19:31:01 INFO  [v.s.controller.TipoContaController] - Executando pesquisar tipo de conta. ID: 3
+09/07/2026 19:31:01 INFO  [v.s.controller.TipoContaController] - Resultado pesquisar tipo de conta. ID: 3, encontrado: true
+09/07/2026 19:31:02 INFO  [v.s.controller.TipoContaController] - Executando alterar tipo de conta.
+09/07/2026 19:31:02 INFO  [v.s.controller.TipoContaController] - Resultado alterar tipo de conta: true
+09/07/2026 19:31:03 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 19:31:03 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 19:31:13 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 19:31:13 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 19:31:13 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 19:31:13 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 19:31:13 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 19:31:27 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 19:31:27 INFO  [v.s.c.FornecedorProdutoController] - Listando produtos para o fornecedor ID: 3
+09/07/2026 20:17:02 INFO  [v.s.controller.ClienteController] - Listando todos os clientes.
+09/07/2026 20:17:02 INFO  [v.s.controller.ClienteController] - Total de clientes encontrados: 7
+09/07/2026 20:17:08 INFO  [v.s.controller.CategoriaController] - Listando todas as categorias.
+09/07/2026 20:17:08 INFO  [v.s.controller.CategoriaController] - Total de categorias encontradas: 6
+09/07/2026 20:18:09 INFO  [v.s.controller.FornecedorController] - Listando todos os fornecedores.
+09/07/2026 21:05:22 INFO  [v.s.controller.TipoContaController] - Executando pesquisar todos os tipos de conta.
+09/07/2026 21:05:22 INFO  [v.s.controller.TipoContaController] - Total de tipos de conta encontrados: 4
+09/07/2026 21:05:22 INFO  [v.s.c.FormaPagamentoController] - Listando todas as formas de pagamento.
+09/07/2026 21:05:22 INFO  [v.s.controller.FinanceiroController] - Pesquisando lancamentos financeiros com filtros. Tipo: null, Forma: null, Movimentacao: null
+09/07/2026 21:05:22 INFO  [v.s.controller.FinanceiroController] - Total de lancamentos encontrados: 34

@@ -261,6 +261,27 @@ public class ProdutoView extends JFrame {
                 Categoria categoria =
                         (Categoria) cbCategoria.getSelectedItem();
 
+
+                if (txtNome.getText().trim().isEmpty()) {
+
+                    JOptionPane.showMessageDialog(
+                            this,
+                            "Informe o nome do produto.");
+
+                    return;
+
+                }
+
+                if (txtPrecoVenda.getText().trim().isEmpty()) {
+
+                    JOptionPane.showMessageDialog(
+                            this,
+                            "Informe o preço de venda.");
+
+                    return;
+
+                }
+
                 if (categoria == null) {
 
                     JOptionPane.showMessageDialog(
@@ -270,6 +291,7 @@ public class ProdutoView extends JFrame {
                     return;
 
                 }
+
 
                 produto.setCategoria(categoria);
 

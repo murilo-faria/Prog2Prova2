@@ -135,6 +135,16 @@ public class TipoContaView extends JFrame {
 
             tipo.setDescricao(txtNome.getText());
 
+            if (txtNome.getText().trim().isEmpty()) {
+
+                JOptionPane.showMessageDialog(
+                        this,
+                        "Informe a descrição do tipo de conta.");
+
+                return;
+
+            }
+
             if (controller.salvar(tipo)) {
 
                 JOptionPane.showMessageDialog(

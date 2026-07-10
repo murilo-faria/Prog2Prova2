@@ -5,12 +5,17 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import venda.siscom.model.Cliente;
 import venda.siscom.model.Venda;
 import venda.siscom.util.HibernateUtil;
 
 public class VendaDAO {
+
+    private static final Logger logger =
+            LoggerFactory.getLogger(VendaDAO.class);
 
     
     public boolean salvar(Venda venda) {
@@ -32,7 +37,7 @@ public class VendaDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao salvar venda.", e);
             return false;
         }
     }
@@ -57,7 +62,7 @@ public class VendaDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao alterar venda.", e);
             return false;
         }
     }
@@ -89,7 +94,7 @@ public class VendaDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao excluir venda.", e);
             return false;
         }
     }
@@ -103,7 +108,7 @@ public class VendaDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar venda.", e);
             return null;
         }
     }
@@ -120,7 +125,7 @@ public class VendaDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao listar vendas.", e);
             return null;
         }
     }
@@ -138,12 +143,11 @@ public class VendaDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar vendas por cliente.", e);
             return null;
         }
     }
 
-    
     public List<Venda> pesquisarPeriodo(LocalDate inicio, LocalDate fim) {
 
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
@@ -157,12 +161,11 @@ public class VendaDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar vendas por periodo.", e);
             return null;
         }
     }
 
-    
     public int contarVendasPorCpfNoMes(String cpf) {
 
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
@@ -186,7 +189,7 @@ public class VendaDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao contar vendas por CPF no mes.", e);
             return 0;
         }
     }

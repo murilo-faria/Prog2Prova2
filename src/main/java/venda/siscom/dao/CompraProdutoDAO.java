@@ -4,12 +4,17 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import venda.siscom.model.Compra;
 import venda.siscom.model.CompraProduto;
 import venda.siscom.util.HibernateUtil;
 
 public class CompraProdutoDAO {
+
+    private static final Logger logger =
+            LoggerFactory.getLogger(CompraProdutoDAO.class);
 
     
     public boolean salvar(CompraProduto compraProduto) {
@@ -31,7 +36,7 @@ public class CompraProdutoDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao salvar item da compra.", e);
 
             return false;
         }
@@ -57,7 +62,7 @@ public class CompraProdutoDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao alterar item da compra.", e);
 
             return false;
         }
@@ -90,7 +95,7 @@ public class CompraProdutoDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao excluir item da compra.", e);
 
             return false;
         }
@@ -105,7 +110,7 @@ public class CompraProdutoDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar item da compra.", e);
 
             return null;
         }
@@ -123,7 +128,7 @@ public class CompraProdutoDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao listar itens da compra.", e);
 
             return null;
         }
@@ -142,7 +147,7 @@ public class CompraProdutoDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar itens por compra.", e);
 
             return null;
         }

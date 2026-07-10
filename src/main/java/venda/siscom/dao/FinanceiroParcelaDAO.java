@@ -4,12 +4,17 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import venda.siscom.model.Financeiro;
 import venda.siscom.model.FinanceiroParcela;
 import venda.siscom.util.HibernateUtil;
 
 public class FinanceiroParcelaDAO {
+
+    private static final Logger logger =
+            LoggerFactory.getLogger(FinanceiroParcelaDAO.class);
 
     
     public boolean salvar(FinanceiroParcela financeiroParcela) {
@@ -32,7 +37,7 @@ public class FinanceiroParcelaDAO {
                 transaction.rollback();
             }
 
-            e.printStackTrace();
+            logger.error("Erro ao salvar parcela financeira.", e);
             return false;
         }
     }
@@ -58,7 +63,7 @@ public class FinanceiroParcelaDAO {
                 transaction.rollback();
             }
 
-            e.printStackTrace();
+            logger.error("Erro ao alterar parcela financeira.", e);
             return false;
         }
     }
@@ -91,7 +96,7 @@ public class FinanceiroParcelaDAO {
                 transaction.rollback();
             }
 
-            e.printStackTrace();
+            logger.error("Erro ao excluir parcela financeira.", e);
             return false;
         }
     }
@@ -105,7 +110,7 @@ public class FinanceiroParcelaDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar parcela financeira.", e);
             return null;
         }
     }
@@ -122,7 +127,7 @@ public class FinanceiroParcelaDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao listar parcelas financeiras.", e);
             return null;
         }
     }
@@ -140,7 +145,7 @@ public class FinanceiroParcelaDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar parcelas por lancamento financeiro.", e);
             return null;
         }
     }
@@ -157,7 +162,7 @@ public class FinanceiroParcelaDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao listar parcelas pendentes.", e);
             return null;
         }
     }
@@ -174,7 +179,7 @@ public class FinanceiroParcelaDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao listar parcelas pagas.", e);
             return null;
         }
     }

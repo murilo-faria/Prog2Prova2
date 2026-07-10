@@ -1,11 +1,16 @@
 package venda.siscom.dao;
 
 import org.hibernate.Session;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import venda.siscom.model.Usuario;
 import venda.siscom.util.HibernateUtil;
 
 public class UsuarioDAO {
+
+    private static final Logger logger =
+            LoggerFactory.getLogger(UsuarioDAO.class);
 
     
     public Usuario efetuarLogin(String login, String senha) {
@@ -21,7 +26,7 @@ public class UsuarioDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao efetuar login.", e);
 
             return null;
         }

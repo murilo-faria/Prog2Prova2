@@ -4,12 +4,17 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import venda.siscom.model.Compra;
 import venda.siscom.model.Fornecedor;
 import venda.siscom.util.HibernateUtil;
 
 public class CompraDAO {
+
+    private static final Logger logger =
+            LoggerFactory.getLogger(CompraDAO.class);
 
     
     public boolean salvar(Compra compra) {
@@ -31,7 +36,7 @@ public class CompraDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao salvar compra.", e);
             return false;
         }
     }
@@ -56,7 +61,7 @@ public class CompraDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao alterar compra.", e);
             return false;
         }
     }
@@ -88,7 +93,7 @@ public class CompraDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao excluir compra.", e);
             return false;
         }
     }
@@ -102,7 +107,7 @@ public class CompraDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar compra.", e);
             return null;
         }
     }
@@ -119,7 +124,7 @@ public class CompraDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao listar compras.", e);
             return null;
         }
     }
@@ -137,7 +142,7 @@ public class CompraDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar compras por fornecedor.", e);
             return null;
         }
     }

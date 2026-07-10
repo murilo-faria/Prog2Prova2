@@ -23,8 +23,11 @@ import org.slf4j.LoggerFactory;
 
 import venda.siscom.controller.ClienteController;
 import venda.siscom.controller.ProdutoController;
+import venda.siscom.controller.TipoContaController;
+import venda.siscom.controller.VendaController;
 import venda.siscom.model.Cliente;
 import venda.siscom.model.Produto;
+import venda.siscom.model.TipoConta;
 import venda.siscom.model.Venda;
 import venda.siscom.model.VendaProduto;
 import venda.siscom.util.FormatadorMoeda;
@@ -40,6 +43,7 @@ public class VendaView extends JFrame {
 
     private JComboBox<Cliente> cbCliente;
     private JComboBox<Produto> cbProduto;
+    private JComboBox<TipoConta> cbTipoConta;
 
     private JTextField txtQuantidade;
     private JTextField txtValorUnitario;
@@ -56,94 +60,146 @@ public class VendaView extends JFrame {
     private JTable tabelaProdutos;
     private DefaultTableModel modeloTabela;
 
-    private final ClienteController clienteController = new ClienteController();
-    private final ProdutoController produtoController = new ProdutoController();
+    private final ClienteController clienteController =
+            new ClienteController();
 
-    
+    private final ProdutoController produtoController =
+            new ProdutoController();
+
+    private final TipoContaController tipoContaController =
+            new TipoContaController();
+
+    private final VendaController vendaController =
+            new VendaController();
+
     private Venda vendaAtual = new Venda();
-    private final List<VendaProduto> itensVenda = new ArrayList<>();
+
+    private final List<VendaProduto> itensVenda =
+            new ArrayList<>();
 
     public VendaView() {
 
         setTitle("Cadastro de Vendas");
+
         setSize(1024, 728);
+
         setResizable(false);
+
         setLocationRelativeTo(null);
+
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
         inicializarComponentes();
+
         carregarClientes();
+
         carregarProdutos();
+
+        carregarTiposConta();
+
+        selecionarTipoContaVenda();
+
+        cbTipoConta.setEnabled(false);
+
     }
 
     private void inicializarComponentes() {
 
         setLayout(new BorderLayout());
 
-        JPanel painelCampos = new JPanel(new GridLayout(7, 2, 5, 5));
+        JPanel painelCampos =
+                new JPanel(new GridLayout(8, 2, 5, 5));
 
         painelCampos.add(new JLabel("Código"));
+
         txtId = new JTextField();
         txtId.setEditable(false);
         painelCampos.add(txtId);
 
         painelCampos.add(new JLabel("Cliente"));
+
         cbCliente = new JComboBox<>();
         painelCampos.add(cbCliente);
 
         painelCampos.add(new JLabel("Data"));
+
         txtData = new JTextField(LocalDate.now().toString());
         txtData.setEditable(false);
         painelCampos.add(txtData);
 
         painelCampos.add(new JLabel("Produto"));
+
         cbProduto = new JComboBox<>();
         painelCampos.add(cbProduto);
 
         painelCampos.add(new JLabel("Quantidade"));
+
         txtQuantidade = new JTextField("1");
         painelCampos.add(txtQuantidade);
 
         painelCampos.add(new JLabel("Valor Unitário"));
+
         txtValorUnitario = new JTextField();
         painelCampos.add(txtValorUnitario);
 
+        painelCampos.add(new JLabel("Tipo Conta"));
+
+        cbTipoConta = new JComboBox<>();
+        painelCampos.add(cbTipoConta);
+
         painelCampos.add(new JLabel("Valor Total"));
+
         txtValorTotal = new JTextField(FormatadorMoeda.formatar(0.0));
         txtValorTotal.setEditable(false);
         painelCampos.add(txtValorTotal);
 
         add(painelCampos, BorderLayout.NORTH);
 
-        JPanel painelItens = new JPanel(new FlowLayout());
+        JPanel painelItens =
+                new JPanel(new FlowLayout());
 
-        btnAdicionarProduto = new JButton("Adicionar Produto");
-        btnRemoverProduto = new JButton("Remover Produto");
+        btnAdicionarProduto =
+                new JButton("Adicionar Produto");
+
+        btnRemoverProduto =
+                new JButton("Remover Produto");
 
         painelItens.add(btnAdicionarProduto);
         painelItens.add(btnRemoverProduto);
 
         add(painelItens, BorderLayout.WEST);
 
-        modeloTabela = new DefaultTableModel(
-                new Object[]{
-                    "Produto",
-                    "Quantidade",
-                    "Valor Unitário",
-                    "Total"
-                }, 0);
+        modeloTabela =
+                new DefaultTableModel(
+                        new Object[]{
+                                "Produto",
+                                "Quantidade",
+                                "Valor Unitário",
+                                "Total"
+                        }, 0);
 
-        tabelaProdutos = new JTable(modeloTabela);
+        tabelaProdutos =
+                new JTable(modeloTabela);
 
         add(new JScrollPane(tabelaProdutos), BorderLayout.CENTER);
 
-        JPanel painelBotoes = new JPanel(new FlowLayout());
+        JPanel painelBotoes =
+                new JPanel(new FlowLayout());
 
-        btnFinalizarVenda = new JButton("Finalizar Venda");
-        btnAlterar = new JButton("Alterar");
-        btnExcluir = new JButton("Excluir");
-        btnPesquisar = new JButton("Pesquisar");
-        btnLimpar = new JButton("Limpar");
+        btnFinalizarVenda =
+                new JButton("Finalizar Venda");
+
+        btnAlterar =
+                new JButton("Alterar");
+
+        btnExcluir =
+                new JButton("Excluir");
+
+        btnPesquisar =
+                new JButton("Pesquisar");
+
+        btnLimpar =
+                new JButton("Limpar");
 
         painelBotoes.add(btnFinalizarVenda);
         painelBotoes.add(btnAlterar);
@@ -155,29 +211,40 @@ public class VendaView extends JFrame {
 
         cbProduto.addActionListener(e -> {
 
-            Produto produto = (Produto) cbProduto.getSelectedItem();
+            Produto produto =
+                    (Produto) cbProduto.getSelectedItem();
 
             if (produto != null) {
+
                 txtValorUnitario.setText(
                         FormatadorMoeda.formatar(produto.getPreco()));
             }
         });
 
-        btnAdicionarProduto.addActionListener(e -> adicionarProduto());
-        btnRemoverProduto.addActionListener(e -> removerProduto());
-        btnFinalizarVenda.addActionListener(e -> finalizarVenda());
-        btnLimpar.addActionListener(e -> limparCampos());
+        btnAdicionarProduto.addActionListener(
+                e -> adicionarProduto());
+
+        btnRemoverProduto.addActionListener(
+                e -> removerProduto());
+
+        btnFinalizarVenda.addActionListener(
+                e -> finalizarVenda());
+
+        btnLimpar.addActionListener(
+                e -> limparCampos());
     }
 
     private void carregarClientes() {
 
         cbCliente.removeAllItems();
 
-        List<Cliente> clientes = clienteController.pesquisarTodos();
+        List<Cliente> clientes =
+                clienteController.pesquisarTodos();
 
         if (clientes != null) {
 
             for (Cliente cliente : clientes) {
+
                 cbCliente.addItem(cliente);
             }
         }
@@ -189,17 +256,54 @@ public class VendaView extends JFrame {
 
         cbProduto.removeAllItems();
 
-        List<Produto> produtos = produtoController.pesquisarTodos();
+        List<Produto> produtos =
+                produtoController.pesquisarTodos();
 
         if (produtos != null) {
 
             for (Produto produto : produtos) {
+
                 cbProduto.addItem(produto);
             }
         }
 
         if (cbProduto.getItemCount() > 0) {
+
             cbProduto.setSelectedIndex(0);
+        }
+    }
+
+    private void carregarTiposConta() {
+
+        cbTipoConta.removeAllItems();
+
+        List<TipoConta> tipos =
+                tipoContaController.pesquisarTodos();
+
+        if (tipos != null) {
+
+            for (TipoConta tipo : tipos) {
+
+                cbTipoConta.addItem(tipo);
+            }
+        }
+    }
+
+    private void selecionarTipoContaVenda() {
+
+        for (int i = 0; i < cbTipoConta.getItemCount(); i++) {
+
+            TipoConta tipo =
+                    cbTipoConta.getItemAt(i);
+
+            if (tipo != null
+                    && tipo.getDescricao() != null
+                    && tipo.getDescricao().equalsIgnoreCase("Venda")) {
+
+                cbTipoConta.setSelectedIndex(i);
+
+                break;
+            }
         }
     }
 
@@ -207,11 +311,15 @@ public class VendaView extends JFrame {
 
         try {
 
-            Produto produto = (Produto) cbProduto.getSelectedItem();
+            Produto produto =
+                    (Produto) cbProduto.getSelectedItem();
 
             if (produto == null) {
-                JOptionPane.showMessageDialog(this,
+
+                JOptionPane.showMessageDialog(
+                        this,
                         "Selecione um produto.");
+
                 return;
             }
 
@@ -219,23 +327,31 @@ public class VendaView extends JFrame {
                     Integer.parseInt(txtQuantidade.getText());
 
             if (quantidade <= 0) {
-                JOptionPane.showMessageDialog(this,
+
+                JOptionPane.showMessageDialog(
+                        this,
                         "Quantidade inválida.");
+
                 return;
             }
 
-            if (!produtoController.verificarEstoque(produto, quantidade)) {
+            if (!produtoController.verificarEstoque(
+                    produto,
+                    quantidade)) {
 
-                JOptionPane.showMessageDialog(this,
+                JOptionPane.showMessageDialog(
+                        this,
                         "Estoque insuficiente.");
 
                 return;
             }
 
             double valorUnitario =
-                    FormatadorMoeda.converter(txtValorUnitario.getText());
+                    FormatadorMoeda.converter(
+                            txtValorUnitario.getText());
 
-            VendaProduto item = new VendaProduto();
+            VendaProduto item =
+                    new VendaProduto();
 
             item.setProduto(produto);
             item.setQuantidade(quantidade);
@@ -244,36 +360,47 @@ public class VendaView extends JFrame {
             itensVenda.add(item);
 
             modeloTabela.addRow(new Object[]{
-                produto.getNome(),
-                quantidade,
-                FormatadorMoeda.formatar(valorUnitario),
-                FormatadorMoeda.formatar(quantidade * valorUnitario)
+
+                    produto.getNome(),
+
+                    quantidade,
+
+                    FormatadorMoeda.formatar(valorUnitario),
+
+                    FormatadorMoeda.formatar(
+                            quantidade * valorUnitario)
             });
 
             calcularTotal();
 
         } catch (Exception ex) {
 
-            logger.warn("Dados invalidos ao adicionar produto na venda.", ex);
+            logger.warn(
+                    "Dados invalidos ao adicionar produto na venda.",
+                    ex);
 
-            JOptionPane.showMessageDialog(this,
+            JOptionPane.showMessageDialog(
+                    this,
                     "Dados inválidos.");
         }
     }
 
-        private void removerProduto() {
+    private void removerProduto() {
 
-        int linha = tabelaProdutos.getSelectedRow();
+        int linha =
+                tabelaProdutos.getSelectedRow();
 
         if (linha < 0) {
 
-            JOptionPane.showMessageDialog(this,
+            JOptionPane.showMessageDialog(
+                    this,
                     "Selecione um produto para remover.");
 
             return;
         }
 
         itensVenda.remove(linha);
+
         modeloTabela.removeRow(linha);
 
         calcularTotal();
@@ -295,7 +422,8 @@ public class VendaView extends JFrame {
 
     private void limparCampos() {
 
-        vendaAtual = new Venda();
+        vendaAtual =
+                new Venda();
 
         itensVenda.clear();
 
@@ -309,43 +437,63 @@ public class VendaView extends JFrame {
 
         txtValorUnitario.setText("");
 
-        txtValorTotal.setText(FormatadorMoeda.formatar(0.0));
+        txtValorTotal.setText(
+                FormatadorMoeda.formatar(0.0));
 
         cbCliente.setSelectedIndex(-1);
 
         if (cbProduto.getItemCount() > 0) {
+
             cbProduto.setSelectedIndex(0);
         }
+
+        selecionarTipoContaVenda();
+
+        cbTipoConta.setEnabled(false);
     }
 
     private void finalizarVenda() {
 
         if (itensVenda.isEmpty()) {
 
-            JOptionPane.showMessageDialog(this,
+            JOptionPane.showMessageDialog(
+                    this,
                     "Adicione pelo menos um produto.");
 
             return;
         }
 
-        Cliente cliente = (Cliente) cbCliente.getSelectedItem();
+        Cliente cliente =
+                (Cliente) cbCliente.getSelectedItem();
 
         if (cliente == null) {
 
-            JOptionPane.showMessageDialog(this,
+            JOptionPane.showMessageDialog(
+                    this,
                     "Selecione um cliente.");
 
             return;
         }
 
-        vendaAtual = new Venda();
+        if (!vendaController.verificarLimiteVendasCliente(cliente)) {
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Limite de vendas do cliente atingido no mês.");
+
+            return;
+        }
+
+        vendaAtual =
+                new Venda();
 
         vendaAtual.setCliente(cliente);
 
         vendaAtual.setDataVenda(LocalDate.now());
 
         vendaAtual.setValorTotal(
-                FormatadorMoeda.converter(txtValorTotal.getText()));
+                FormatadorMoeda.converter(
+                        txtValorTotal.getText()));
 
         PagamentoVendaView pagamento =
                 new PagamentoVendaView(
@@ -357,8 +505,6 @@ public class VendaView extends JFrame {
 
         setVisible(false);
     }
-
-    
 
     public JTextField getTxtId() {
         return txtId;
@@ -382,6 +528,14 @@ public class VendaView extends JFrame {
 
     public Venda getVendaAtual() {
         return vendaAtual;
+    }
+
+    public TipoConta getTipoContaSelecionado() {
+        return (TipoConta) cbTipoConta.getSelectedItem();
+    }
+
+    public JComboBox<TipoConta> getCbTipoConta() {
+        return cbTipoConta;
     }
 
     public JButton getBtnAdicionarProduto() {
@@ -411,5 +565,4 @@ public class VendaView extends JFrame {
     public JButton getBtnLimpar() {
         return btnLimpar;
     }
-
 }

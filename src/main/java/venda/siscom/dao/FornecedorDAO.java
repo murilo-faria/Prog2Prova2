@@ -4,11 +4,16 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import venda.siscom.model.Fornecedor;
 import venda.siscom.util.HibernateUtil;
 
 public class FornecedorDAO {
+
+    private static final Logger logger =
+            LoggerFactory.getLogger(FornecedorDAO.class);
 
     
     public boolean salvar(Fornecedor fornecedor) {
@@ -30,7 +35,7 @@ public class FornecedorDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao salvar fornecedor.", e);
 
             return false;
         }
@@ -56,7 +61,7 @@ public class FornecedorDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao alterar fornecedor.", e);
 
             return false;
         }
@@ -89,7 +94,7 @@ public class FornecedorDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao excluir fornecedor.", e);
 
             return false;
         }
@@ -104,7 +109,7 @@ public class FornecedorDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar fornecedor.", e);
 
             return null;
         }
@@ -122,7 +127,7 @@ public class FornecedorDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao listar fornecedores.", e);
 
             return null;
         }
@@ -141,7 +146,7 @@ public class FornecedorDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar fornecedor por CNPJ.", e);
 
             return null;
         }

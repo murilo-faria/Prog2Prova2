@@ -4,11 +4,16 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import venda.siscom.model.TipoConta;
 import venda.siscom.util.HibernateUtil;
 
 public class TipoContaDAO {
+
+    private static final Logger logger =
+            LoggerFactory.getLogger(TipoContaDAO.class);
 
     
     public boolean salvar(TipoConta tipoConta) {
@@ -30,7 +35,7 @@ public class TipoContaDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao salvar tipo de conta.", e);
 
             return false;
         }
@@ -56,7 +61,7 @@ public class TipoContaDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao alterar tipo de conta.", e);
 
             return false;
         }
@@ -89,7 +94,7 @@ public class TipoContaDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao excluir tipo de conta.", e);
 
             return false;
         }
@@ -104,7 +109,7 @@ public class TipoContaDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar tipo de conta.", e);
 
             return null;
         }
@@ -122,7 +127,7 @@ public class TipoContaDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao listar tipos de conta.", e);
 
             return null;
         }
@@ -141,7 +146,7 @@ public class TipoContaDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar tipo de conta por descricao.", e);
 
             return null;
         }
@@ -180,7 +185,7 @@ public class TipoContaDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao buscar ou criar tipo de conta.", e);
 
             return null;
         }

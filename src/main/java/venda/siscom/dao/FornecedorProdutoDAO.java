@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import venda.siscom.model.Fornecedor;
 import venda.siscom.model.FornecedorProduto;
@@ -11,6 +13,9 @@ import venda.siscom.model.Produto;
 import venda.siscom.util.HibernateUtil;
 
 public class FornecedorProdutoDAO {
+
+    private static final Logger logger =
+            LoggerFactory.getLogger(FornecedorProdutoDAO.class);
 
     
     public boolean salvar(FornecedorProduto fornecedorProduto) {
@@ -32,7 +37,7 @@ public class FornecedorProdutoDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao salvar vinculo de fornecedor/produto.", e);
 
             return false;
         }
@@ -58,7 +63,7 @@ public class FornecedorProdutoDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao alterar vinculo de fornecedor/produto.", e);
 
             return false;
         }
@@ -91,7 +96,7 @@ public class FornecedorProdutoDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao excluir vinculo de fornecedor/produto.", e);
 
             return false;
         }
@@ -106,7 +111,7 @@ public class FornecedorProdutoDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar vinculo de fornecedor/produto.", e);
 
             return null;
         }
@@ -124,7 +129,7 @@ public class FornecedorProdutoDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao listar vinculos de fornecedor/produto.", e);
 
             return null;
         }
@@ -143,7 +148,7 @@ public class FornecedorProdutoDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar vinculos por produto.", e);
 
             return null;
         }
@@ -162,7 +167,7 @@ public class FornecedorProdutoDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar vinculos por fornecedor.", e);
 
             return null;
         }

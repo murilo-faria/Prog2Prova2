@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 
 import venda.siscom.dao.FinanceiroDAO;
 import venda.siscom.dao.VendaDAO;
+import venda.siscom.model.Cliente;
 import venda.siscom.model.Financeiro;
 import venda.siscom.model.FinanceiroParcela;
 import venda.siscom.model.FormaPagamento;
@@ -27,7 +28,7 @@ public class VendaController {
 
     
 
-
+        
     public boolean finalizarVenda(
             Venda venda,
             List<VendaProduto> itens,
@@ -167,7 +168,20 @@ public class VendaController {
     }
 
     
+        public boolean verificarLimiteVendasCliente(Cliente cliente) {
 
+        if (cliente == null || cliente.getCpf() == null) {
+
+        logger.warn("Cliente invalido ao verificar limite de vendas.");
+
+        return false;
+        }
+
+        int quantidadeVendas =
+            vendaDAO.contarVendasPorCpfNoMes(cliente.getCpf());
+
+        return quantidadeVendas < 3;
+        }
 
     private void gerarParcelas(
             Financeiro financeiro,

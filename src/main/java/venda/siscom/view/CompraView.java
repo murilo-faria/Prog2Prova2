@@ -25,7 +25,6 @@ import venda.siscom.controller.CompraController;
 import venda.siscom.controller.FormaPagamentoController;
 import venda.siscom.controller.FornecedorController;
 import venda.siscom.controller.FornecedorProdutoController;
-import venda.siscom.controller.ProdutoController;
 import venda.siscom.controller.TipoContaController;
 import venda.siscom.model.Compra;
 import venda.siscom.model.CompraProduto;
@@ -35,7 +34,6 @@ import venda.siscom.model.FornecedorProduto;
 import venda.siscom.model.Produto;
 import venda.siscom.model.TipoConta;
 import venda.siscom.util.FormatadorMoeda;
-
 
 public class CompraView extends JFrame {
 
@@ -71,11 +69,8 @@ public class CompraView extends JFrame {
     private final FornecedorController fornecedorController =
             new FornecedorController();
 
-    private final ProdutoController produtoController =
-            new ProdutoController();
-
-       private final FornecedorProdutoController fornecedorProdutoController =
-        new FornecedorProdutoController();
+    private final FornecedorProdutoController fornecedorProdutoController =
+            new FornecedorProdutoController();
 
     private final FormaPagamentoController formaPagamentoController =
             new FormaPagamentoController();
@@ -83,7 +78,7 @@ public class CompraView extends JFrame {
     private final TipoContaController tipoContaController =
             new TipoContaController();
 
-    private List<ItemCarrinho> itensCompra =
+    private final List<ItemCarrinho> itensCompra =
             new ArrayList<>();
 
     public CompraView() {
@@ -108,65 +103,66 @@ public class CompraView extends JFrame {
 
         carregarTiposConta();
 
-        
-        for (int i = 0; i < cbTipoConta.getItemCount(); i++) {
+        selecionarTipoContaCompra();
 
-        TipoConta tipo = cbTipoConta.getItemAt(i);
-
-        if (tipo.getDescricao().equalsIgnoreCase("Compra")) {
-
-        cbTipoConta.setSelectedIndex(i);
-        break;
-                }
-        }
-
-        
-        cbTipoConta.setEnabled(false);                
+        cbTipoConta.setEnabled(false);
 
         configurarEventos();
     }
 
     private void inicializarComponentes() {
 
+        setLayout(new BorderLayout());
+
         JPanel painelCampos =
-                new JPanel(new GridLayout(10,2,5,5));
+                new JPanel(new GridLayout(10, 2, 5, 5));
 
         painelCampos.add(new JLabel("Código"));
+
         txtId = new JTextField();
         txtId.setEditable(false);
         painelCampos.add(txtId);
 
         painelCampos.add(new JLabel("Fornecedor"));
+
         cbFornecedor = new JComboBox<>();
         painelCampos.add(cbFornecedor);
 
         painelCampos.add(new JLabel("Data"));
+
         txtData = new JTextField(LocalDate.now().toString());
         txtData.setEditable(false);
         painelCampos.add(txtData);
 
         painelCampos.add(new JLabel("Produto"));
+
         cbProduto = new JComboBox<>();
         painelCampos.add(cbProduto);
 
         painelCampos.add(new JLabel("Quantidade"));
+
         txtQuantidade = new JTextField("1");
         painelCampos.add(txtQuantidade);
 
         painelCampos.add(new JLabel("Valor Custo"));
+
         txtValorCusto = new JTextField();
         painelCampos.add(txtValorCusto);
 
         painelCampos.add(new JLabel("Forma Pagamento"));
+
         cbFormaPagamento = new JComboBox<>();
         painelCampos.add(cbFormaPagamento);
 
         painelCampos.add(new JLabel("Tipo Conta"));
+
         cbTipoConta = new JComboBox<>();
         painelCampos.add(cbTipoConta);
 
         painelCampos.add(new JLabel("Parcelas / Prazo / Desconto"));
-        JPanel painelPagamento = new JPanel(new GridLayout(1,3));
+
+        JPanel painelPagamento =
+                new JPanel(new GridLayout(1, 3));
 
         txtParcelas = new JTextField("1");
         txtPrazo = new JTextField("30");
@@ -179,26 +175,29 @@ public class CompraView extends JFrame {
         painelCampos.add(painelPagamento);
 
         painelCampos.add(new JLabel("Valor Total"));
+
         txtValorTotal = new JTextField(FormatadorMoeda.formatar(0.0));
         txtValorTotal.setEditable(false);
         painelCampos.add(txtValorTotal);
 
         add(painelCampos, BorderLayout.NORTH);
 
-        modeloTabela = new DefaultTableModel(
-                new Object[]{
-                        "Produto",
-                        "Quantidade",
-                        "Valor",
-                        "Total"
-                },0);
+        modeloTabela =
+                new DefaultTableModel(
+                        new Object[]{
+                                "Produto",
+                                "Quantidade",
+                                "Valor",
+                                "Total"
+                        }, 0);
 
-        tabelaProdutos = new JTable(modeloTabela);
+        tabelaProdutos =
+                new JTable(modeloTabela);
 
-        add(new JScrollPane(tabelaProdutos),
-                BorderLayout.CENTER);
+        add(new JScrollPane(tabelaProdutos), BorderLayout.CENTER);
 
-        JPanel painelBotoes = new JPanel(new FlowLayout());
+        JPanel painelBotoes =
+                new JPanel(new FlowLayout());
 
         btnAdicionarProduto =
                 new JButton("Adicionar");
@@ -217,11 +216,10 @@ public class CompraView extends JFrame {
         painelBotoes.add(btnFinalizarCompra);
         painelBotoes.add(btnLimpar);
 
-        add(painelBotoes,
-                BorderLayout.SOUTH);
+        add(painelBotoes, BorderLayout.SOUTH);
     }
 
-        private void carregarFornecedores() {
+    private void carregarFornecedores() {
 
         cbFornecedor.removeAllItems();
 
@@ -231,52 +229,47 @@ public class CompraView extends JFrame {
         if (fornecedores != null) {
 
             for (Fornecedor fornecedor : fornecedores) {
+
                 cbFornecedor.addItem(fornecedor);
-            }
-        }
-    }
-
-    private void carregarProdutos() {
-
-        cbProduto.removeAllItems();
-
-        List<Produto> produtos =
-                produtoController.pesquisarTodos();
-
-        if (produtos != null) {
-
-            for (Produto produto : produtos) {
-                cbProduto.addItem(produto);
             }
         }
     }
 
     private void carregarProdutosFornecedor() {
 
-    cbProduto.removeAllItems();
+        cbProduto.removeAllItems();
 
-    Fornecedor fornecedor =
-            (Fornecedor) cbFornecedor.getSelectedItem();
+        Fornecedor fornecedor =
+                (Fornecedor) cbFornecedor.getSelectedItem();
 
-    if (fornecedor == null) {
-        return;
+        if (fornecedor == null) {
+
+            return;
         }
 
-    List<FornecedorProduto> lista =
-            fornecedorProdutoController
-                    .pesquisarPorFornecedor(fornecedor);
+        List<FornecedorProduto> lista =
+                fornecedorProdutoController
+                        .pesquisarPorFornecedor(fornecedor);
 
-    if (lista == null) {
-        return;
-         }
+        if (lista == null) {
 
-    for (FornecedorProduto fp : lista) {
+            return;
+        }
 
-        cbProduto.addItem(fp.getProduto());
+        for (FornecedorProduto fp : lista) {
 
-         }
+            cbProduto.addItem(fp.getProduto());
+        }
 
-}
+        Produto produto =
+                (Produto) cbProduto.getSelectedItem();
+
+        if (produto != null) {
+
+            txtValorCusto.setText(
+                    FormatadorMoeda.formatar(produto.getPreco()));
+        }
+    }
 
     private void carregarFormasPagamento() {
 
@@ -288,23 +281,21 @@ public class CompraView extends JFrame {
         if (formas != null) {
 
             for (FormaPagamento forma : formas) {
+
                 cbFormaPagamento.addItem(forma);
             }
         }
 
-        if (cbFormaPagamento.getItemCount() > 0) {
+        FormaPagamento forma =
+                (FormaPagamento) cbFormaPagamento.getSelectedItem();
 
-            FormaPagamento forma =
-                    (FormaPagamento) cbFormaPagamento.getSelectedItem();
+        if (forma != null) {
 
-            if (forma != null) {
+            txtParcelas.setText(
+                    String.valueOf(forma.getQtdeParcela()));
 
-                txtParcelas.setText(
-                        String.valueOf(forma.getQtdeParcela()));
-
-                txtPrazo.setText(
-                        String.valueOf(forma.getPrazo()));
-            }
+            txtPrazo.setText(
+                    String.valueOf(forma.getPrazo()));
         }
     }
 
@@ -318,27 +309,33 @@ public class CompraView extends JFrame {
         if (tipos != null) {
 
             for (TipoConta tipo : tipos) {
+
                 cbTipoConta.addItem(tipo);
+            }
+        }
+    }
+
+    private void selecionarTipoContaCompra() {
+
+        for (int i = 0; i < cbTipoConta.getItemCount(); i++) {
+
+            TipoConta tipo =
+                    cbTipoConta.getItemAt(i);
+
+            if (tipo != null
+                    && tipo.getDescricao() != null
+                    && tipo.getDescricao().equalsIgnoreCase("Compra")) {
+
+                cbTipoConta.setSelectedIndex(i);
+
+                break;
             }
         }
     }
 
     private void configurarEventos() {
 
-        cbFornecedor.addActionListener(e -> {
-
-        carregarProdutosFornecedor();
-
-        Produto produto =
-            (Produto) cbProduto.getSelectedItem();
-
-        if (produto != null) {
-
-        txtValorCusto.setText(
-                FormatadorMoeda.formatar(produto.getPreco()));
-                }
-
-        });
+        cbFornecedor.addActionListener(e -> carregarProdutosFornecedor());
 
         cbProduto.addActionListener(e -> {
 
@@ -380,7 +377,7 @@ public class CompraView extends JFrame {
                 e -> limparCampos());
     }
 
-        private void adicionarProduto() {
+    private void adicionarProduto() {
 
         try {
 
@@ -399,6 +396,15 @@ public class CompraView extends JFrame {
             int quantidade =
                     Integer.parseInt(txtQuantidade.getText());
 
+            if (quantidade <= 0) {
+
+                JOptionPane.showMessageDialog(
+                        this,
+                        "Quantidade inválida.");
+
+                return;
+            }
+
             double valorCusto =
                     FormatadorMoeda.converter(txtValorCusto.getText());
 
@@ -414,28 +420,21 @@ public class CompraView extends JFrame {
                     FormatadorMoeda.formatar(valorCusto),
 
                     FormatadorMoeda.formatar(total)
-
             });
 
             itensCompra.add(
-
                     new ItemCarrinho(
-
                             produto,
-
                             quantidade,
-
-                            valorCusto
-
-                    )
-
-            );
+                            valorCusto));
 
             calcularTotal();
 
         } catch (Exception e) {
 
-            logger.warn("Valores invalidos ao adicionar produto na compra.", e);
+            logger.warn(
+                    "Valores invalidos ao adicionar produto na compra.",
+                    e);
 
             JOptionPane.showMessageDialog(
                     this,
@@ -470,8 +469,7 @@ public class CompraView extends JFrame {
 
         for (ItemCarrinho item : itensCompra) {
 
-            total +=
-                    item.getQuantidade()
+            total += item.getQuantidade()
                     * item.getValorCusto();
         }
 
@@ -491,10 +489,27 @@ public class CompraView extends JFrame {
 
         txtDesconto.setText("0");
 
-        txtValorTotal.setText(FormatadorMoeda.formatar(0.0));
+        txtValorTotal.setText(
+                FormatadorMoeda.formatar(0.0));
+
+        if (cbFornecedor.getItemCount() > 0) {
+
+            cbFornecedor.setSelectedIndex(0);
+        }
+
+        carregarProdutosFornecedor();
+
+        if (cbFormaPagamento.getItemCount() > 0) {
+
+            cbFormaPagamento.setSelectedIndex(0);
+        }
+
+        selecionarTipoContaCompra();
+
+        cbTipoConta.setEnabled(false);
     }
 
-        private void finalizarCompra() {
+    private void finalizarCompra() {
 
         if (itensCompra.isEmpty()) {
 
@@ -523,43 +538,49 @@ public class CompraView extends JFrame {
             return;
         }
 
-        Compra compra = new Compra();
+        Compra compra =
+                new Compra();
 
         compra.setFornecedor(fornecedor);
+
         compra.setDataCompra(LocalDate.now());
 
-        List<CompraProduto> itens = new ArrayList<>();
+        List<CompraProduto> itens =
+                new ArrayList<>();
 
         for (ItemCarrinho item : itensCompra) {
 
-            CompraProduto cp = new CompraProduto();
+            CompraProduto cp =
+                    new CompraProduto();
 
             cp.setProduto(item.getProduto());
+
             cp.setQuantidade(item.getQuantidade());
+
             cp.setValorUnitario(item.getValorCusto());
 
             itens.add(cp);
         }
 
-        boolean sucesso = compraController.finalizarCompra(
+        boolean sucesso =
+                compraController.finalizarCompra(
 
-                compra,
+                        compra,
 
-                itens,
+                        itens,
 
-                forma,
+                        forma,
 
-                tipo,
+                        tipo,
 
-                LocalDate.now(),
+                        LocalDate.now(),
 
-                Integer.parseInt(txtParcelas.getText()),
+                        Integer.parseInt(txtParcelas.getText()),
 
-                Integer.parseInt(txtPrazo.getText()),
+                        Integer.parseInt(txtPrazo.getText()),
 
-                FormatadorMoeda.converter(txtDesconto.getText())
-
-        );
+                        FormatadorMoeda.converter(txtDesconto.getText())
+                );
 
         if (sucesso) {
 
@@ -607,5 +628,4 @@ public class CompraView extends JFrame {
             return valorCusto;
         }
     }
-
 }

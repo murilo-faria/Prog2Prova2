@@ -178,6 +178,25 @@ public class FornecedorView extends JFrame {
             return;
         }
 
+        if (txtRazaoSocial.getText().trim().isEmpty()) {
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Informe a razão social do fornecedor.");
+
+            return;
+        }
+
+        if (txtCnpj.getText().trim().isEmpty()) {
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Informe o CNPJ do fornecedor.");
+
+            return;
+        }
+
+        
         try {
 
             Fornecedor fornecedor =
@@ -233,6 +252,24 @@ public class FornecedorView extends JFrame {
             JOptionPane.showMessageDialog(
                     this,
                     "Informe o nome fantasia do fornecedor.");
+
+            return;
+        }
+
+        if (txtRazaoSocial.getText().trim().isEmpty()) {
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Informe a razão social do fornecedor.");
+
+            return;
+        }
+
+        if (txtCnpj.getText().trim().isEmpty()) {
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Informe o CNPJ do fornecedor.");
 
             return;
         }

@@ -4,12 +4,17 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import venda.siscom.model.Categoria;
 import venda.siscom.model.Produto;
 import venda.siscom.util.HibernateUtil;
 
 public class ProdutoDAO {
+
+    private static final Logger logger =
+            LoggerFactory.getLogger(ProdutoDAO.class);
 
     
     public boolean salvar(Produto produto) {
@@ -23,7 +28,7 @@ public class ProdutoDAO {
             if (transaction != null) {
                 transaction.rollback();
             }
-            e.printStackTrace();
+            logger.error("Erro ao salvar produto.", e);
             return false;
         }
     }
@@ -40,7 +45,7 @@ public class ProdutoDAO {
             if (transaction != null) {
                 transaction.rollback();
             }
-            e.printStackTrace();
+            logger.error("Erro ao alterar produto.", e);
             return false;
         }
     }
@@ -62,7 +67,7 @@ public class ProdutoDAO {
             if (transaction != null) {
                 transaction.rollback();
             }
-            e.printStackTrace();
+            logger.error("Erro ao excluir produto.", e);
             return false;
         }
     }
@@ -72,7 +77,7 @@ public class ProdutoDAO {
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
             return session.get(Produto.class, id);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar produto.", e);
             return null;
         }
     }
@@ -82,7 +87,7 @@ public class ProdutoDAO {
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
             return session.createQuery("from Produto", Produto.class).list();
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error("Erro ao listar produtos.", e);
             return null;
         }
     }
@@ -111,7 +116,7 @@ public class ProdutoDAO {
             if (transaction != null) {
                 transaction.rollback();
             }
-            e.printStackTrace();
+            logger.error("Erro ao buscar ou criar categoria do produto.", e);
             return null;
         }
     }

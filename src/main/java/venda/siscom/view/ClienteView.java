@@ -104,6 +104,8 @@ public class ClienteView extends JFrame {
                                 "Código",
                                 "Nome",
                                 "CPF",
+                                "RG",
+                                "Endereço",
                                 "Telefone"
                         }, 0) {
 
@@ -186,6 +188,42 @@ public class ClienteView extends JFrame {
             return;
         }
 
+        if (txtCpf.getText().trim().isEmpty()) {
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Informe o CPF do cliente.");
+
+            return;
+        }               
+
+        if (txtRg.getText().trim().isEmpty()) {
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Informe o RG do cliente.");
+
+            return;
+        }
+
+        if (txtEndereco.getText().trim().isEmpty()) {
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Informe o endereço do cliente.");
+
+            return;
+        }
+        if (txtTelefone.getText().trim().isEmpty()) {
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Informe o telefone do cliente.");
+
+            return;
+        }
+        
+
         Cliente cliente =
                 new Cliente();
 
@@ -224,20 +262,46 @@ public class ClienteView extends JFrame {
 
     private void alterar() {
 
-        if (txtId.getText().isEmpty()) {
-
-            JOptionPane.showMessageDialog(
-                    this,
-                    "Selecione um cliente.");
-
-            return;
-        }
-
         if (txtNome.getText().trim().isEmpty()) {
 
             JOptionPane.showMessageDialog(
                     this,
                     "Informe o nome do cliente.");
+
+            return;
+        }
+
+        if (txtCpf.getText().trim().isEmpty()) {
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Informe o CPF do cliente.");
+
+            return;
+        }               
+
+        if (txtRg.getText().trim().isEmpty()) {
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Informe o RG do cliente.");
+
+            return;
+        }
+
+        if (txtEndereco.getText().trim().isEmpty()) {
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Informe o endereço do cliente.");
+
+            return;
+        }
+        if (txtTelefone.getText().trim().isEmpty()) {
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Informe o telefone do cliente.");
 
             return;
         }
@@ -365,6 +429,10 @@ public class ClienteView extends JFrame {
 
                         cliente.getCpf(),
 
+                        cliente.getRg(),
+
+                        cliente.getEndereco(),
+
                         cliente.getTelefone()
                 });
 
@@ -400,6 +468,10 @@ public class ClienteView extends JFrame {
                         cliente.getNome(),
 
                         cliente.getCpf(),
+
+                        cliente.getRg(),
+
+                        cliente.getEndereco(),
 
                         cliente.getTelefone()
                 });

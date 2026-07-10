@@ -4,11 +4,16 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import venda.siscom.model.Cliente;
 import venda.siscom.util.HibernateUtil;
 
 public class ClienteDAO {
+
+    private static final Logger logger =
+            LoggerFactory.getLogger(ClienteDAO.class);
 
     
     public boolean salvar(Cliente cliente) {
@@ -30,7 +35,7 @@ public class ClienteDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao salvar cliente.", e);
 
             return false;
         }
@@ -56,7 +61,7 @@ public class ClienteDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao alterar cliente.", e);
 
             return false;
         }
@@ -89,7 +94,7 @@ public class ClienteDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao excluir cliente.", e);
 
             return false;
         }
@@ -104,7 +109,7 @@ public class ClienteDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar cliente.", e);
 
             return null;
         }
@@ -122,7 +127,7 @@ public class ClienteDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao listar clientes.", e);
 
             return null;
         }
@@ -141,7 +146,7 @@ public class ClienteDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar cliente por CPF.", e);
 
             return null;
         }

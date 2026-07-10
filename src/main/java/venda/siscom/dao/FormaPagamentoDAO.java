@@ -4,11 +4,16 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import venda.siscom.model.FormaPagamento;
 import venda.siscom.util.HibernateUtil;
 
 public class FormaPagamentoDAO {
+
+    private static final Logger logger =
+            LoggerFactory.getLogger(FormaPagamentoDAO.class);
 
     
     public boolean salvar(FormaPagamento formaPagamento) {
@@ -30,7 +35,7 @@ public class FormaPagamentoDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao salvar forma de pagamento.", e);
             return false;
         }
     }
@@ -55,7 +60,7 @@ public class FormaPagamentoDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao alterar forma de pagamento.", e);
             return false;
         }
     }
@@ -87,7 +92,7 @@ public class FormaPagamentoDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao excluir forma de pagamento.", e);
             return false;
         }
     }
@@ -101,7 +106,7 @@ public class FormaPagamentoDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar forma de pagamento.", e);
             return null;
         }
     }
@@ -118,7 +123,7 @@ public class FormaPagamentoDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao listar formas de pagamento.", e);
             return null;
         }
     }
@@ -136,7 +141,7 @@ public class FormaPagamentoDAO {
 
         } catch (Exception e) {
 
-            e.printStackTrace();
+            logger.error("Erro ao pesquisar forma de pagamento por nome.", e);
             return null;
         }
     }
@@ -174,7 +179,7 @@ public class FormaPagamentoDAO {
             if (transaction != null)
                 transaction.rollback();
 
-            e.printStackTrace();
+            logger.error("Erro ao buscar ou criar forma de pagamento.", e);
             return null;
         }
     }
